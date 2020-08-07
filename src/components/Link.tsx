@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, {Ref} from 'react';
+import React, { Ref } from 'react';
 import clsx from 'clsx';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
@@ -46,7 +46,7 @@ function Link(props: LinkProps) {
   }
 
   return (
-    <MuiLink component={NextComposed} className={className} ref={innerRef} href={href} {...other} />
+    <MuiLink component={NextComposed} className={className} ref={innerRef} href={href as any} {...(other as any)} />
   );
 }
 
@@ -54,11 +54,15 @@ interface LinkProps {
   activeClassName?: string,
   as?: string | object,
   className?: string,
-  href?: string | object,
+  href?: string | Href,
   naked?: boolean,
   onClick?: Function,
   prefetch?: boolean,
   innerRef?: Ref<any>,
+}
+
+interface Href {
+  pathname: string
 }
 
 export default React.forwardRef((props, ref) => <Link {...props} innerRef={ref} />);
