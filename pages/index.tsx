@@ -5,6 +5,7 @@ import DoneIcon from '@material-ui/icons/Done';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
 import Chip from '@material-ui/core/Chip';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
@@ -13,7 +14,9 @@ import Copyright from '../src/components/Copyright';
 import Avatar from '../src/components/Avatar';
 import ReferenceIcon from '../src/components/ReferenceIcon';
 import SectionItem from '../src/components/SectionItem';
-import StackoverflowItem from '../src/components/StackoverflowItem';
+import StackOverflowItem from '../src/components/StackOverflowItem';
+import StackOverflowIcon from '../src/components/icons/StackOverflowIcon';
+import DataItem from '../src/components/DataItem';
 import settings from '../src/settings.json';
 
 export default function Index() {
@@ -45,18 +48,18 @@ export default function Index() {
             <Grid item>
               <ReferenceIcon icon={LinkedIn} description="in/raulotanohurtado" href="https://www.linkedin.com/in/raulotanohurtado/" />
             </Grid>
+            <Grid item>
+              <Tooltip title={<StackOverflowItem />} interactive arrow>
+                <div><ReferenceIcon icon={StackOverflowIcon} description="stackoverflow/raúl-otaño" href="https://stackoverflow.com/users/1655482/ra%c3%bal-ota%c3%b1o" /></div>
+              </Tooltip>
+            </Grid>
           </Grid>
         </Box>
 
         <Box m={4} />
 
-        <Box display="flex" flexDirection="row" alignItems="center">
-          <StackoverflowItem />
-        </Box>
-
-        <Box my={3} />
-
         <SectionItem title="Experience">
+          <DataItem title="Senior Software Developer" subtitle="Mimacom" image="https://media-exp1.licdn.com/dms/image/C4E0BAQEDnFziUBYogg/company-logo_200_200/0?e=1607558400&v=beta&t=0ji-5IEK04VUMeznqWGyaiqxs1Rfst41WQ6MbNdwPQs" />
           <Skeleton animation="wave" />
           <Skeleton animation="wave" />
           <Skeleton animation="wave" />
@@ -72,7 +75,7 @@ export default function Index() {
 
         <Box my={2} />
 
-        <SectionItem title="Tech staff">
+        <SectionItem title="Tech staff" initiallyExpanded>
           {settings.techStaff.map(staff => <Box display="inline-block" key={staff} m={0.5}><Chip label={staff} onDelete={() => { }} deleteIcon={<DoneIcon />} /></Box>)}
         </SectionItem>
 
