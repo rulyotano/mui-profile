@@ -13,6 +13,7 @@ import Copyright from '../src/components/Copyright';
 import Avatar from '../src/components/Avatar';
 import ReferenceIcon from '../src/components/ReferenceIcon';
 import SectionItem from '../src/components/SectionItem';
+import StackoverflowItem from '../src/components/StackoverflowItem';
 import settings from '../src/settings.json';
 
 export default function Index() {
@@ -33,7 +34,6 @@ export default function Index() {
         </Typography>
         <Box m={2} />
 
-
         <Box display="flex" flexDirection="row" alignItems="center">
           <Grid container spacing={2}>
             <Grid item>
@@ -46,6 +46,12 @@ export default function Index() {
               <ReferenceIcon icon={LinkedIn} description="in/raulotanohurtado" href="https://www.linkedin.com/in/raulotanohurtado/" />
             </Grid>
           </Grid>
+        </Box>
+
+        <Box m={4} />
+
+        <Box display="flex" flexDirection="row" alignItems="center">
+          <StackoverflowItem />
         </Box>
 
         <Box my={3} />
