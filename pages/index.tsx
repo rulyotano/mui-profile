@@ -25,7 +25,7 @@ export default function Index() {
   const role = settings.role;
 
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="md">
       <Box my={4} display="flex" flexDirection="column" alignItems="center">
         <Avatar imgSrc={imageSrc} imgAlt={name} />
         <Box m={1} />
@@ -38,7 +38,7 @@ export default function Index() {
         <Box m={2} />
 
         <Box display="flex" flexDirection="row" alignItems="center">
-          <Grid container spacing={2}>
+          <Grid container spacing={2} alignItems="flex-start">
             <Grid item>
               <ReferenceIcon icon={GitHubIcon} description="@rulyotano" href="https://github.com/rulyotano" />
             </Grid>
@@ -49,9 +49,7 @@ export default function Index() {
               <ReferenceIcon icon={LinkedIn} description="in/raulotanohurtado" href="https://www.linkedin.com/in/raulotanohurtado/" />
             </Grid>
             <Grid item>
-              <Tooltip title={<StackOverflowItem />} interactive arrow>
-                <div><ReferenceIcon icon={StackOverflowIcon} description="stackoverflow/raúl-otaño" href="https://stackoverflow.com/users/1655482/ra%c3%bal-ota%c3%b1o" /></div>
-              </Tooltip>
+              <ReferenceIcon icon={StackOverflowIcon} description="stackoverflow/raúl-otaño" href="https://stackoverflow.com/users/1655482/ra%c3%bal-ota%c3%b1o" expandContent={<StackOverflowItem />} />
             </Grid>
           </Grid>
         </Box>
