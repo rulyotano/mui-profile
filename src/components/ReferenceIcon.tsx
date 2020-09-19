@@ -4,7 +4,7 @@ import Box from '@material-ui/core/Box';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
 import ExpandButton from './ExpandButton';
-import Collapse from '@material-ui/core/Collapse';
+import Popover from '@material-ui/core/Popover';
 
 interface ReferenceIconProps {
   icon?: any,
@@ -17,6 +17,19 @@ export default function ReferenceIcon({ icon: Icon, description = "", href = "",
   const classes = useStyles();
   const [isExpanded, setIsExpanded] = React.useState(false);
 
+  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
+
+  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? 'icon-popover' : undefined;
+
   return (
     <>
       <Box display="flex" flexDirection="row" alignItems="center" height={48}>
@@ -25,13 +38,25 @@ export default function ReferenceIcon({ icon: Icon, description = "", href = "",
         <Typography>
           {href ? <Link href={href} color="inherit">{description}</Link> : description}
         </Typography>
-        {expandContent ? <ExpandButton expanded={isExpanded} onClick={() => setIsExpanded(!isExpanded)} /> : null}
+        {expandContent ? <ExpandButton expanded={isExpanded} onClick={handleClick} /> : null}
       </Box>
-      <Collapse in={isExpanded} timeout="auto" unmountOnExit>
-        <Box display="flex" flexDirection="row" alignItems="center">
-          {expandContent}
-        </Box>
-      </Collapse>
+
+      <Popover
+        id={id}
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'center',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'center',
+        }}
+      >
+        {expandContent}
+      </Popover>
     </>
   );
 }

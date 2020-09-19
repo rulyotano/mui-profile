@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-export default function ExpandButton({ expanded = false, onClick = () => { }, label = "show more" }) {
+export default function ExpandButton({ expanded = false, onClick = (e: React.MouseEvent<HTMLButtonElement>) => { }, label = "show more" }) {
   const classes = useStyles();
 
   return (
