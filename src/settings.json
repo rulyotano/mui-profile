@@ -1,6 +1,6 @@
 {
     "fullName": "Raúl Otaño Hurtado",
-    "imageUrl": "https://lh3.googleusercontent.com/pw/ACtC-3dSRq5XYgA45W4sFsiJ1UFBQl4t4fMUaN1u9PVADihUX2k-n-suB_M9lF9oF6BAHVa1BZYYQ2j2hGyJKwyYMhl1o5vPA7PoEG66l9Cai7eLZWd3tlcx48kjIW8pdeQaXaX8BceTB3uBgNavYQJqkjH8hw=w862-h903-no",
+    "imageUrl": "https://lh3.googleusercontent.com/pw/ACtC-3dSRq5XYgA45W4sFsiJ1UFBQl4t4fMUaN1u9PVADihUX2k-n-suB_M9lF9oF6BAHVa1BZYYQ2j2hGyJKwyYMhl1o5vPA7PoEG66l9Cai7eLZWd3tlcx48kjIW8pdeQaXaX8BceTB3uBgNavYQJqkjH8hw",
     "imageIconUrl": "/avatar-favicon-01.ico",
     "role": "Software Engineer",
     "webSite": "https://rulyotano.com",
@@ -13,13 +13,16 @@
         "title": "Senior Software Developer",
         "place": "Mimacom",
         "placeUrl": "https://mimacom.com",
-        "image": "https://lh3.googleusercontent.com/pw/ACtC-3eff4oY4kxz2EnFykM7JL1eeed-Cjak9NdJg2qLBMGX3k7DB2OiWxlw1abPi2zDfcu3Kn-RGS3z8mYMn0lwEq0rX62L5-cSjYHmulDJaS227hAJOSEM0scENJyUzz7UnYRnLETsw21dtC40RKiQ9LTpmw=s200-no",
-        "timePeriod": "2020/07 - actually"
+        "image": "https://lh3.googleusercontent.com/pw/ACtC-3eff4oY4kxz2EnFykM7JL1eeed-Cjak9NdJg2qLBMGX3k7DB2OiWxlw1abPi2zDfcu3Kn-RGS3z8mYMn0lwEq0rX62L5-cSjYHmulDJaS227hAJOSEM0scENJyUzz7UnYRnLETsw21dtC40RKiQ9LTpmw",
+        "timePeriod": "2020/07 - actually",
+        "contentParagraphs": [
+            "Worked as frontend ReacJs developer for a company's client, an international bank name Openbank. Worked there in one specific project created from scratch, created with good practices and patterns."
+        ]
     }, {
         "title": "Full Stack Developer",
         "place": "Consol Freight LLC",
         "placeUrl": "https://consolfreight.com",
-        "image": "https://lh3.googleusercontent.com/pw/ACtC-3fTn39b_g3K6nCYsI4OkuEP_jBgkr4zLcOR_KATKLuwbZPk2YI0Irr1OBoDbRTbFCU6xt9PUMPnCNfpksJLMnD-Il5eFJ9Jd_0wAQy3Q37FEp1mUsdpgyZuGg2jR72V7ecUGSt9rq7l38AmqiZMHNnYGg=s200-no",
+        "image": "https://lh3.googleusercontent.com/pw/ACtC-3fTn39b_g3K6nCYsI4OkuEP_jBgkr4zLcOR_KATKLuwbZPk2YI0Irr1OBoDbRTbFCU6xt9PUMPnCNfpksJLMnD-Il5eFJ9Jd_0wAQy3Q37FEp1mUsdpgyZuGg2jR72V7ecUGSt9rq7l38AmqiZMHNnYGg",
         "timePeriod": "2018/04 - 2020/06",
         "contentParagraphs": [
             "Lead software developer for developing and maintaining the platform system. It was like a social network for moving maritime charges. The API system was made on ASP.NET MVC CORE with C# and with .NET tech in general. The front-end part was done using React.js tech."
@@ -28,7 +31,7 @@
         "title": "Web Developer",
         "place": "Solinftec",
         "placeUrl": "https://solinftec.com",
-        "image": "https://lh3.googleusercontent.com/pw/ACtC-3fYfddxp5HeZPvTQErQTWmvnHr7UKkF89bvyxN-_Rr5uXsWxfuTjL0a7R6XL8bxGb5_juCAOL9FINT_FvVm4VZadd-9xXKofHgLJGa2iEerbR2rr2GjhINqtRK0NC7alkjErrL3HuFbLj0sqxrb3_YsiQ=s200-no",
+        "image": "https://lh3.googleusercontent.com/pw/ACtC-3fYfddxp5HeZPvTQErQTWmvnHr7UKkF89bvyxN-_Rr5uXsWxfuTjL0a7R6XL8bxGb5_juCAOL9FINT_FvVm4VZadd-9xXKofHgLJGa2iEerbR2rr2GjhINqtRK0NC7alkjErrL3HuFbLj0sqxrb3_YsiQ",
         "timePeriod": "2016/08 - 2018/08",
         "contentParagraphs": [
             "Lead frontend Software Develop for creating the online system for monitoring the agriculture pieces of equipment. Need to show maps with area and movements, tracking of measured parameters, data analysis, data charts, tables, etc. Done using AngularJs, and ReactJs. The part of the maps was done with GoogleMaps and Mapbox."
@@ -37,7 +40,7 @@
         "title": "Software Developer",
         "place": "Xmovo",
         "placeUrl": "https://www.linkedin.com/company/xmovo-group-inc/about",
-        "image": "https://lh3.googleusercontent.com/pw/ACtC-3fsZOG5XlOxyiCcNlN3K5aqHjogvoTjxczWh3nXbWkR_KsUzN_bFALww8Y7kQZbqlnnQ3Gq1bLmIbbjdn_CjflLkiTPcCo8oA_aCgCSJyLjusKQh4zJ7HealXfmi9qkVe1R1zExBR4V5N5OM2Pj9TEmBQ=s200-no",
+        "image": "https://lh3.googleusercontent.com/pw/ACtC-3fsZOG5XlOxyiCcNlN3K5aqHjogvoTjxczWh3nXbWkR_KsUzN_bFALww8Y7kQZbqlnnQ3Gq1bLmIbbjdn_CjflLkiTPcCo8oA_aCgCSJyLjusKQh4zJ7HealXfmi9qkVe1R1zExBR4V5N5OM2Pj9TEmBQ",
         "timePeriod": "2014/09 - 2016/08",
         "contentParagraphs": [
             "Web Developer for creating Xmovo, a social network for training and fitness. Was developed using .NET technologies: Asp.NET MVC 5, C#, Angular JS, and then React JS, Signal-R, DDD, SOLID principles, and others."
@@ -46,7 +49,7 @@
         "title": "Lead Software Developer",
         "place": "Hayco",
         "placeUrl": "http://www.hayco.icrt.cu/",
-        "image": "https://lh3.googleusercontent.com/pw/ACtC-3eQJriRcdCJkRizjvFIXeKjIIh-YQMBt_SiHeBfZL_GjvNprUeBsxlLcb1OQcIz0oEUHSV-Wm3lSxWFfHaRnzprzCXnbeSRS7egD1xwU3_kkoWLOhRLk4mJY3OczUKucsGi4BNMfkk-OB-d1V7NMN-zaw=s200-no",
+        "image": "https://lh3.googleusercontent.com/pw/ACtC-3eQJriRcdCJkRizjvFIXeKjIIh-YQMBt_SiHeBfZL_GjvNprUeBsxlLcb1OQcIz0oEUHSV-Wm3lSxWFfHaRnzprzCXnbeSRS7egD1xwU3_kkoWLOhRLk4mJY3OczUKucsGi4BNMfkk-OB-d1V7NMN-zaw",
         "timePeriod": "2014/11 - 2015/12",
         "contentParagraphs": [
             "Develop and maintain all kind of software in the company. Mainly on .NET technologies."
@@ -56,7 +59,7 @@
         "title": "Computer Science Bachelor of Science (BSc)",
         "place": "University of Havana",
         "placeUrl": "http://www.uh.cu",
-        "image": "https://lh3.googleusercontent.com/pw/ACtC-3eU2fJDzygIqoFlfDqF1-MmM2MfyHQYMx6qnRv1hf07lbF-BtvJ-MTXdqMsJT7kdTQqur1wZYihHUJAhBYuI_zW67_tzJlUiVaXj_vhNiVYIIiVB75xL6ZyIDKorHn2_veH_77OG_wqDVP4Edwsq1Z71A=s200-no",
+        "image": "https://lh3.googleusercontent.com/pw/ACtC-3eU2fJDzygIqoFlfDqF1-MmM2MfyHQYMx6qnRv1hf07lbF-BtvJ-MTXdqMsJT7kdTQqur1wZYihHUJAhBYuI_zW67_tzJlUiVaXj_vhNiVYIIiVB75xL6ZyIDKorHn2_veH_77OG_wqDVP4Edwsq1Z71A",
         "timePeriod": "2007/09 - 2013/05"
     }]
 }

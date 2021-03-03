@@ -1,5 +1,5 @@
-import React from 'react';
-import clsx from 'clsx';
+import React, { useMemo } from 'react';
+// import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import Hidden from '@material-ui/core/Hidden';
@@ -12,11 +12,14 @@ import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandButton from './ExpandButton';
+import { getGoogleImageWithSize } from 'utils/googlePhotos';
 
 export default function DataItem({ image = null, title = "", place = "", timePeriod = "", placeUrl = "", contentParagraphs = [] }) {
   const classes = useStyles();
   const [isExpanded, setIsExpanded] = React.useState(false);
   const isExpandable = contentParagraphs && contentParagraphs.length > 0;
+
+  const imageWithSize = useMemo(() => getGoogleImageWithSize(image, 100), [image]);
 
   return (
     <Card className={classes.root}>
@@ -26,7 +29,7 @@ export default function DataItem({ image = null, title = "", place = "", timePer
           component="img"
           alt={title}
           height="100"
-          image={image}
+          image={imageWithSize}
           title={title}
           className={classes.image}
         />
