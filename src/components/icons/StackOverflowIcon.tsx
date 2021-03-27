@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTheme } from '@material-ui/core';
 
-export default function Avatar({ height = null, width = null, useOriginalColor = false }) {
+export default function StackOverflowIcon({ height = null, width = null, useOriginalColor = false }) {
     const theme = useTheme();
     
     const color1 = useOriginalColor ? "#BCBBBB" : theme.palette.text.primary

@@ -78,7 +78,7 @@ const Content = ({ classes, title, place, placeUrl, timePeriod }) => {
 }
 
 const PlaceLink = ({ placeUrl, children }) => {
-  if (placeUrl) return <Link href={placeUrl} color="inherit">{children}</Link>
+  if (placeUrl) return <Link href={placeUrl} target="_blank" color="inherit">{children}</Link>
   return <>{children}</>
 }
 
