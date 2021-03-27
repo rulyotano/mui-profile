@@ -5,9 +5,9 @@
         "requestHash": "rulyotano",
         "profileUrl": "http:\/\/gravatar.com\/rulyotano",
         "preferredUsername": "rulyotano",
-        "thumbnailUrl": "http:\/\/1.gravatar.com\/avatar\/e89be15befffd43fc19416cc613d8c32",
+        "thumbnailUrl": "https:\/\/1.gravatar.com\/avatar\/e89be15befffd43fc19416cc613d8c32",
         "photos": [{
-            "value": "http:\/\/1.gravatar.com\/avatar\/e89be15befffd43fc19416cc613d8c32",
+            "value": "https:\/\/1.gravatar.com\/avatar\/e89be15befffd43fc19416cc613d8c32",
             "type": "thumbnail"
         }],
         "name": {
