@@ -16,6 +16,8 @@ import ReferenceIcon from "components/ReferenceIcon";
 import SectionItem from "components/SectionItem";
 import StackOverflowItem from "components/StackOverflowItem";
 import StackOverflowIcon from "components/icons/StackOverflowIcon";
+import HackerrankIcon from "components/icons/HackerrankIcon";
+import CodesignalIcon from "components/icons/CodesignalIcon";
 import AppBar from "components/Appbar";
 import DataItem from "components/DataItem";
 import settings from "settings.json";
@@ -78,6 +80,20 @@ export default function Index() {
                   description="stackoverflow/raúl-otaño"
                   href="https://stackoverflow.com/users/1655482/ra%c3%bal-ota%c3%b1o"
                   expandContent={<StackOverflowItem />}
+                />
+              </Grid>
+              <Grid item>
+                <ReferenceIcon
+                  icon={HackerrankIcon}
+                  description="hackerrank/rulyotano"
+                  href="https://www.hackerrank.com/rulyotano"
+                />
+              </Grid>
+              <Grid item>
+                <ReferenceIcon
+                  icon={CodesignalIcon}
+                  description="codesignal/rulyotano"
+                  href="https://app.codesignal.com/profile/rulyotano"
                 />
               </Grid>
               <Grid item>

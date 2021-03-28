@@ -36,7 +36,7 @@ export default function ReferenceIcon({ icon: Icon, description = "", href = "",
         <Icon />
         <Box ml={1} />
         <Typography>
-          {href ? <Link href={href} color="inherit">{description}</Link> : description}
+          {href ? <Link href={href} target="_blank" color="inherit">{description}</Link> : description}
         </Typography>
         {expandContent ? <ExpandButton expanded={isExpanded} onClick={handleClick} /> : null}
       </Box>

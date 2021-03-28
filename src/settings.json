@@ -7,7 +7,7 @@
   "companyName": "rulyotano",
   "techStaff": [
     "c#", "javascript", "typescript", "react", ".net", "asp.net mvc",
-    "redux", "flux", "SOLID", "clean code", "unit tests"
+    "redux", "flux", "SOLID", "clean code", "unit tests", "python", "problem solving", "algorithms", "TDD", "DDD"
   ],
   "experience": [{
     "title": "Back End Developer (.NET) at DocPlanner",
@@ -85,5 +85,25 @@
     "title": "Mimacom Test",
     "github": "https://github.com/rulyotano/mimacom_react_task",
     "web": "https://mimacom-shop.azurewebsites.net/"
-  }]
+  }],
+  "articles": [{
+    "title": "Interpolate 2D points, usign Bezier curves in WPF",
+    "web": "https://www.codeproject.com/Articles/769055/Interpolate-D-points-usign-Bezier-curves-in-WPF"
+  }],
+  "recommendedBooks": [{
+      "title": "Clean Code",
+      "web": "https://www.goodreads.com/book/show/3735293-clean-code"
+    }, {
+      "title": ".NET Microservices: Architecture for Containerized .NET Applications",
+      "web": "https://docs.microsoft.com/en-us/dotnet/architecture/microservices/"
+    },
+    {
+      "title": "Clean Architecture",
+      "web": "https://www.goodreads.com/book/show/18043011-clean-architecture"
+    },
+    {
+      "title": "Cracking the Coding Interview",
+      "web": "http://www.crackingthecodinginterview.com"
+    }
+  ]
 }

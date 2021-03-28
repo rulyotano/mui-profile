@@ -40,6 +40,8 @@ const menus = {
 export default function ApplicationBar({ onClose = () => { } }) {
   const classes = useStyles();
   const projects = settings.projects;
+  const articles = settings.articles;
+  const readBooks = settings.recommendedBooks;
   const [opened, setOpened] = useState({});
 
   const isMenuOpened = (menu: string) => Boolean(opened[menu])
@@ -82,7 +84,7 @@ export default function ApplicationBar({ onClose = () => { } }) {
 
 
         <Collapse in={articlesOpened} timeout="auto" unmountOnExit>
-          <ArticlesMenuItem level={1} />
+          {articles.map(it => <ArticlesMenuItem key={it.title} level={1} name={it.title} web={it.web} />)}
         </Collapse>
 
         {/* ===== Read Books ===== */}
@@ -90,14 +92,14 @@ export default function ApplicationBar({ onClose = () => { } }) {
           <ListItemIcon>
             <BookIcon />
           </ListItemIcon>
-          <ListItemText primary={"Read Books"} />
+          <ListItemText primary={"Recommended Books"} />
 
           <ExpandButton expanded={readBooksOpened} />
         </ListItem>
 
 
         <Collapse in={readBooksOpened} timeout="auto" unmountOnExit>
-          <ReadBooksMenuItem level={1} />
+          {readBooks.map(it => <ReadBooksMenuItem key={it.title} level={1} name={it.title} web={it.web} />)}
         </Collapse>
       </List>
     </div>
@@ -115,10 +117,14 @@ interface MenuItemProps {
 
 interface ArticlesItemProps {
   level: number,
+  name: string,
+  web?: string
 }
 
 interface ReadBooksItemProps {
   level: number,
+  name: string,
+  web?: string
 }
 
 function ProjectMenuItem(props: MenuItemProps) {
@@ -172,20 +178,26 @@ function ProjectMenuItem(props: MenuItemProps) {
 
 function ArticlesMenuItem(props: ArticlesItemProps) {
   const classes = useStyles(props);
+  const { name, web } = props;
 
   return <>
     <ListItem className={classes.menuItem}>
-      <ListItemText primary="Coming Soon..." />
+      <Link href={web} color="inherit" target="_blank">
+        <ListItemText primary={name} />
+      </Link>
     </ListItem>
   </>;
 }
 
 function ReadBooksMenuItem(props: ReadBooksItemProps) {
   const classes = useStyles(props);
+  const { name, web } = props;
 
   return <>
     <ListItem className={classes.menuItem}>
-      <ListItemText primary="Coming Soon..." />
+      <Link href={web} color="inherit" target="_blank">
+        <ListItemText primary={name} />
+      </Link>
     </ListItem>
   </>;
 }
