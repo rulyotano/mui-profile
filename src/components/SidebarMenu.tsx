@@ -62,7 +62,7 @@ export default function ApplicationBar({ onClose = () => { } }) {
           <ListItemIcon>
             <AppsIcon />
           </ListItemIcon>
-          <ListItemText primary={"Interesting Projects"} />
+          <ListItemText primary={"Interesting/Fun Projects"} />
 
           <ExpandButton expanded={projectsOpened} />
         </ListItem>

@@ -70,19 +70,19 @@
     "timePeriod": "2007/09 - 2013/05"
   }],
   "projects": [{
-    "title": "Rulyotano.Math",
+    "title": "Rulyotano.Math (.net 2D interpolation)",
     "github": "https://github.com/rulyotano/Rulyotano.Math",
     "nuget": "https://www.nuget.org/packages/Rulyotano.Math"
   }, {
-    "title": "Tree Extended",
+    "title": "Tree Extended (helper library/command)",
     "github": "https://github.com/rulyotano/tree-extended",
     "npm": "https://www.npmjs.com/package/tree-extended"
   }, {
-    "title": "Mines Sweeper",
+    "title": "My MinesSweeper! 😎",
     "github": "https://github.com/rulyotano/minesweeper",
     "web": "https://webminesweeper.azurewebsites.net/mines-sweeper"
   }, {
-    "title": "Mimacom Test",
+    "title": "Mimacom Challenge 💪",
     "github": "https://github.com/rulyotano/mimacom_react_task",
     "web": "https://mimacom-shop.azurewebsites.net/"
   }],
