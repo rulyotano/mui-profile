@@ -85,6 +85,10 @@
     "title": "Mimacom Challenge 💪",
     "github": "https://github.com/rulyotano/mimacom_react_task",
     "web": "https://mimacom-shop.azurewebsites.net/"
+  }, {
+    "title": "Mui Profile (this site!)",
+    "github": "https://github.com/rulyotano/mui-profile",
+    "web": "https://rulyotano.com"
   }],
   "articles": [{
     "title": "Interpolate 2D points, usign Bezier curves in WPF",
