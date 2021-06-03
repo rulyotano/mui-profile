@@ -102,7 +102,9 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: theme.spacing(1),
   },
   image: {
-    width: 100
+    width: 50,
+    height: 50,
+    margin: theme.spacing(2)
   },
   paragraph: {
     textIndent: theme.spacing(1),
