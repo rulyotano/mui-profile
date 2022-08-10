@@ -91,9 +91,14 @@
     "web": "https://rulyotano.com"
   }],
   "articles": [{
-    "title": "Interpolate 2D points, usign Bezier curves in WPF",
-    "web": "https://www.codeproject.com/Articles/769055/Interpolate-D-points-usign-Bezier-curves-in-WPF"
-  }],
+      "title": "Interpolate 2D points, usign Bezier curves in WPF",
+      "web": "https://www.codeproject.com/Articles/769055/Interpolate-D-points-usign-Bezier-curves-in-WPF"
+    },
+    {
+      "title": "Tree-Extended, a tool to get custom directories trees",
+      "web": "https://medium.com/@rulyotano/tree-extended-a-tool-to-get-custom-directories-trees-3dea42ebf407"
+    }
+  ],
   "recommendedBooks": [{
       "title": "Clean Code",
       "web": "https://www.goodreads.com/book/show/3735293-clean-code"
