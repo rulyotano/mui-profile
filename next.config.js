@@ -1,8 +1,13 @@
 module.exports = {
-    exportTrailingSlash: true,
-    exportPathMap: function() {
-      return {
-        '/': { page: '/' }
-      };
-    }
-  };
+  exportTrailingSlash: false,
+  exportPathMap: function () {
+    return {
+      '/': {
+        page: '/'
+      }
+    };
+  },
+  async redirects() {
+    return []
+  },
+};

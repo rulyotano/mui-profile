@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React from "react";
 import MailIcon from "@material-ui/icons/Mail";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
@@ -25,7 +25,6 @@ import gravatar from "gravatar.json";
 
 export default function Index() {
   const name = settings.fullName;
-  const imageSrc = settings.imageUrl;
   const role = settings.role;
   const [gravatarItem] = gravatar.entry;
 
