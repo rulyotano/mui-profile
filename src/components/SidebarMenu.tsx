@@ -9,6 +9,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Collapse from '@material-ui/core/Collapse';
 import Tooltip from '@material-ui/core/Tooltip';
 import Link from '@material-ui/core/Link';
+import NextLink from 'next/link';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ArticlesIcon from '@material-ui/icons/Description';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -72,13 +73,15 @@ export default function ApplicationBar({ onClose = () => { } }) {
         </Collapse>
 
         {/* ===== Articles ===== */}
-        <ListItem>
+        <ListItem button>
           <ListItemIcon>
             <ArticlesIcon />
           </ListItemIcon>
-          <Link href={"/articles"} color="inherit">
-            <ListItemText primary={"Articles"} />
-          </Link>
+          <NextLink href={"/articles"}>
+            <Link href={"/articles"} color="inherit">
+              <ListItemText primary={"Articles"} />
+            </Link>
+          </NextLink>
         </ListItem>
 
         {/* ===== Read Books ===== */}
