@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Copyright from "components/Copyright";
 import AppBar from "components/Appbar";
-import ArticleDataItem from "components/ArticleDataItem";
+import ArticleDataItem from "components/articles/ArticleDataItem";
 import settings from "settings.json";
 
 export default function Articles() {
@@ -18,7 +18,7 @@ export default function Articles() {
           <Typography variant="h4">Articles</Typography>
         </Box>
 
-        <Box my={4} display="flex" flexDirection="column" alignItems="center">
+        <Box my={4} display="flex" flexDirection="row" alignItems="right">
           {settings.articles.map(it => (
             <ArticleDataItem
               key={it.title}
@@ -27,8 +27,8 @@ export default function Articles() {
               image={it.image}
             />
           ))}
-          <Copyright />
         </Box>
+        <Copyright />
       </Container>
     </div>
   );
