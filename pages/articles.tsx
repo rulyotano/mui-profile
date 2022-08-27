@@ -2,6 +2,7 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import Grid from "@material-ui/core/Grid";
 import Copyright from "components/Copyright";
 import AppBar from "components/Appbar";
 import ArticleDataItem from "components/articles/ArticleDataItem";
@@ -15,21 +16,24 @@ export default function Articles() {
       <Container maxWidth="md">
 
         <Box my={4} display="flex" flexDirection="column" alignItems="center">
-          <Typography variant="h4">Articles</Typography>
+          <Typography variant="h4">My articles</Typography>
         </Box>
 
-        <Box my={4} display="flex" flexDirection="row" alignItems="right">
+        <Grid container spacing={2}>
           {settings.articles.map(it => (
-            <ArticleDataItem
-              key={it.title}
-              title={it.title}
-              url={it.web}
-              image={it.image}
-              contentParagraphs={it.contentParagraphs}
-            />
+            <Grid key={it.title} item xs={12} md={4}>
+              <ArticleDataItem
+                title={it.title}
+                url={it.web}
+                image={it.image}
+                contentParagraphs={it.contentParagraphs}
+              />
+            </Grid>
           ))}
+        </Grid>
+        <Box my={4} display="flex" flexDirection="column" alignItems="center">
+          <Copyright />
         </Box>
-        <Copyright />
       </Container>
     </div>
   );

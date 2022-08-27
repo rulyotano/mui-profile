@@ -59,9 +59,7 @@ const CustomLink = ({ url, children }) => {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
-    marginBottom: theme.spacing(2),
-    marginLeft: theme.spacing(1)
+    width: "100%"
   },
   media: {
     height: 140,
