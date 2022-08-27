@@ -25,6 +25,7 @@ export default function Articles() {
               title={it.title}
               url={it.web}
               image={it.image}
+              contentParagraphs={it.contentParagraphs}
             />
           ))}
         </Box>

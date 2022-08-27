@@ -40,7 +40,6 @@ const menus = {
 export default function ApplicationBar({ onClose = () => { } }) {
   const classes = useStyles();
   const projects = settings.projects;
-  const articles = settings.articles;
   const readBooks = settings.recommendedBooks;
   const [opened, setOpened] = useState({});
 
@@ -73,19 +72,14 @@ export default function ApplicationBar({ onClose = () => { } }) {
         </Collapse>
 
         {/* ===== Articles ===== */}
-        <ListItem button onClick={() => toggleMenu(menus.articles)}>
+        <ListItem>
           <ListItemIcon>
             <ArticlesIcon />
           </ListItemIcon>
-          <ListItemText primary={"Articles"} />
-
-          <ExpandButton expanded={articlesOpened} />
+          <Link href={"/articles"} color="inherit">
+            <ListItemText primary={"Articles"} />
+          </Link>
         </ListItem>
-
-
-        <Collapse in={articlesOpened} timeout="auto" unmountOnExit>
-          {articles.map(it => <ArticlesMenuItem key={it.title} level={1} name={it.title} web={it.web} />)}
-        </Collapse>
 
         {/* ===== Read Books ===== */}
         <ListItem button onClick={() => toggleMenu(menus.readBooks)}>
@@ -115,12 +109,6 @@ interface MenuItemProps {
   nuget?: string,
 }
 
-interface ArticlesItemProps {
-  level: number,
-  name: string,
-  web?: string
-}
-
 interface ReadBooksItemProps {
   level: number,
   name: string,
@@ -131,7 +119,6 @@ function ProjectMenuItem(props: MenuItemProps) {
   const { title, github, web, npm, nuget } = props;
   const classes = useStyles(props);
   const [isOpen, setIsOpen] = useState(false);
-
 
   return <>
     <ListItem className={classes.menuItem} button onClick={() => setIsOpen(!isOpen)}>
@@ -173,19 +160,6 @@ function ProjectMenuItem(props: MenuItemProps) {
 
       </List>
     </Collapse>
-  </>;
-}
-
-function ArticlesMenuItem(props: ArticlesItemProps) {
-  const classes = useStyles(props);
-  const { name, web } = props;
-
-  return <>
-    <ListItem className={classes.menuItem}>
-      <Link href={web} color="inherit" target="_blank">
-        <ListItemText primary={name} />
-      </Link>
-    </ListItem>
   </>;
 }
 

@@ -93,12 +93,19 @@
   "articles": [{
       "title": "Interpolate 2D points, usign Bezier curves in WPF",
       "web": "https://www.codeproject.com/Articles/769055/Interpolate-D-points-usign-Bezier-curves-in-WPF",
-      "image": "https://lh3.googleusercontent.com/pw/AL9nZEXBNW-hhOomJPN6cHlZyBMLOwNBVjhkFt9GTLNIwK7qGaJXafhDU0QaTjwrYGIIWNogCRk50CbAGAqpc-WadU86M7V6rOM0E3ODYWGQ0-y9FQCH_VdX-97tnXcjnlDOzHHyKX1_q9ewjN56Syn4jclRRw"
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEXBNW-hhOomJPN6cHlZyBMLOwNBVjhkFt9GTLNIwK7qGaJXafhDU0QaTjwrYGIIWNogCRk50CbAGAqpc-WadU86M7V6rOM0E3ODYWGQ0-y9FQCH_VdX-97tnXcjnlDOzHHyKX1_q9ewjN56Syn4jclRRw",
+      "contentParagraphs": [
+        "Do you know how to do, from a list of points to get a curve line that pass through all of them? In this article we explain how to do it by using Bezier Curves."
+      ]
+
     },
     {
       "title": "Tree-Extended, a tool to get custom directories trees",
       "web": "https://medium.com/@rulyotano/tree-extended-a-tool-to-get-custom-directories-trees-3dea42ebf407",
-      "image": "https://lh3.googleusercontent.com/pw/AL9nZEWMmO1c93JC_i2iDghbTmCBUHpiLt1x5zux91CVjaTSG4sm7Z2TBY12qsQsMtPFALhxXFg5NSpoBmXw885sUJvB-Rf83l4hiI_T5mI2riMyttYdvMnaur5ntx1c_TCfywfNG0dDNJZaekpWY6IIt8b76g"
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEWMmO1c93JC_i2iDghbTmCBUHpiLt1x5zux91CVjaTSG4sm7Z2TBY12qsQsMtPFALhxXFg5NSpoBmXw885sUJvB-Rf83l4hiI_T5mI2riMyttYdvMnaur5ntx1c_TCfywfNG0dDNJZaekpWY6IIt8b76g",
+      "contentParagraphs": [
+        "Here we explain how to use a tool developed to match the needs to document projects directories in a very customized way. I created a command line tool and also, a VsCode extension in order to do that."
+      ]
     }
   ],
   "recommendedBooks": [{
