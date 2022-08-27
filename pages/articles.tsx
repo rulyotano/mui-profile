@@ -34,3 +34,9 @@ export default function Articles() {
     </div>
   );
 }
+
+export async function getServerSideProps() {
+  return {
+    props: {}
+  }
+}
