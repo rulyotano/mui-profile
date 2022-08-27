@@ -2,12 +2,11 @@ module.exports = {
   trailingSlash: false,
   exportPathMap: function () {
     return {
-      '/': {
-        page: '/'
-      }
+      '/': { page: '/' },
+      '/articles': { page: '/articles' },
     };
   },
   async redirects() {
     return []
-  },
+  }
 };

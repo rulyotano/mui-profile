@@ -8,7 +8,14 @@ import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import { getGoogleImageWithSize } from 'utils/googlePhotos';
 
-export default function ArticleDataItem({ image = null, title = "", url = "", contentParagraphs = [] }) {
+type ArticleDataItemPropsType = {
+  image: string,
+  title: string,
+  url: string,
+  contentParagraphs: string[]
+}
+
+export default function ArticleDataItem({ image = null, title = "", url = "", contentParagraphs = [] } : ArticleDataItemPropsType) {
   const classes = useStyles();
 
   const imageWithSize = useMemo(() => getGoogleImageWithSize(image, 350), [image]);
@@ -27,7 +34,7 @@ export default function ArticleDataItem({ image = null, title = "", url = "", co
               {title}
             </Typography>
             {contentParagraphs.map(paragraph =>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography variant="body2" color="textSecondary" component="p" key={paragraph.substring(0, 11)}>
                 {paragraph}
               </Typography>)}
           </CardContent>

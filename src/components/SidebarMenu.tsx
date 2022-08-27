@@ -77,11 +77,9 @@ export default function ApplicationBar({ onClose = () => { } }) {
           <ListItemIcon>
             <ArticlesIcon />
           </ListItemIcon>
-          <NextLink href={"/articles"}>
-            <Link href={"/articles"} color="inherit">
-              <ListItemText primary={"Articles"} />
-            </Link>
-          </NextLink>
+          <Link href={"/articles"} color="inherit" component={NextLink}>
+            <ListItemText primary={"Articles"} />
+          </Link>
         </ListItem>
 
         {/* ===== Read Books ===== */}
