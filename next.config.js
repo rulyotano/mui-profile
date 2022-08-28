@@ -4,6 +4,7 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/articles': { page: '/articles' },
+      '/projects': { page: '/projects' },
     };
   },
   async redirects() {

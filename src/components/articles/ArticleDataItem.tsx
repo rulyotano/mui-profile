@@ -29,7 +29,7 @@ export default function ArticleDataItem({ image = null, title = "", url = "", co
             image={imageWithSize}
             title={title}
           />
-          <CardContent>
+          <CardContent className={classes.cardContent}>
             <Typography gutterBottom variant="h5" component="h2">
               {title}
             </Typography>
@@ -39,14 +39,6 @@ export default function ArticleDataItem({ image = null, title = "", url = "", co
               </Typography>)}
           </CardContent>
         </CardActionArea>
-        {/* <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions> */}
       </Card>
     </CustomLink>
   );
@@ -63,5 +55,8 @@ const useStyles = makeStyles((theme) => ({
   },
   media: {
     height: 140,
+  },
+  cardContent: {
+    height: theme.spacing(30)
   }
 }))
