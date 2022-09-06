@@ -9,7 +9,7 @@ import gravatar from "gravatar.json";
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
-  const [ gravatarItem ] = gravatar.entry;
+  const [gravatarItem] = gravatar.entry;
 
   const pageIcon = `${gravatarItem.thumbnailUrl}?s=20`;
   const profileImage = `${gravatarItem.thumbnailUrl}?s=300`;
@@ -28,6 +28,8 @@ export default function MyApp(props) {
   return (
     <React.Fragment>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5S2L5F0HC"></script>
+        <script src="./google-analytics-init.js"></script>
         <title>{name}</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta name="description" content={role} />
