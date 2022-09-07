@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && echo ''> ./out/.nojekyll && echo rulyotano.com> ./out/CNAME",
+    "build": "next build && next export && echo ''> ./out/.nojekyll && echo rulyotano.com > ./out/CNAME",
     "start": "next start",
     "test": "jest"
   },

@@ -126,6 +126,14 @@
       "contentParagraphs": [
         "Here we explain how to use a tool developed to match the needs to document projects directories in a very customized way. I created a command line tool and also, a VsCode extension in order to do that."
       ]
+    },
+    {
+      "title": "Get Your Personal Website for Free: Create it with ReactJs",
+      "web": "https://medium.com/@rulyotano/get-your-personal-website-for-free-create-it-with-reactjs-b7e3c3c874b4",
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEUUQh8p5f6W6trJAeERKMoZjpSi9dA46jLobm7YB9LzJWjR8mDRJm7v-DYl7J03RHWDuJIBqrsyCmbtnoQtoYlzoFvn69wEka9kQUqtLJw4gvYx73lf_UIxpTy0qTAFDdaQz-Eh1szy57KvZKqKoxjBhA",
+      "contentParagraphs": [
+        "I want to show how create for free a personal webpage by using GitHub Pages + ReactJs + NextJs + Material UI."
+      ]
     }
   ],
   "recommendedBooks": [{
