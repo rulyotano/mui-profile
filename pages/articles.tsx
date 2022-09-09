@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head';
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -12,6 +13,9 @@ export default function Articles() {
 
   return (
     <div>
+      <Head>
+        <title>Raul's articles</title>
+      </Head>
       <AppBar parent="/" />
       <Container maxWidth="md">
 

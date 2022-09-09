@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head';
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -11,6 +12,9 @@ import settings from "settings.json";
 export default function Projects() {
   return (
     <div>
+      <Head>
+        <title>Raul's some fun projects</title>
+      </Head>
       <AppBar parent="/" />
       <Container maxWidth="md">
 

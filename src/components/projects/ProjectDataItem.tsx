@@ -29,10 +29,13 @@ export default function ProjectDataItem(
   const classes = useStyles();
 
   const imageWithSize = useMemo(() => getGoogleImageWithSize(image, 350), [image]);
+  const onCardClick = () => {
+    window.open(githubUrl, "_blank");
+  }
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea onClick={onCardClick}>
         <CardMedia
           className={classes.media}
           image={imageWithSize}
