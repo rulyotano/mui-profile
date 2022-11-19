@@ -20,7 +20,7 @@ import HackerrankIcon from "components/icons/HackerrankIcon";
 import CodesignalIcon from "components/icons/CodesignalIcon";
 import AppBar from "components/Appbar";
 import DataItem from "components/DataItem";
-import settings from "settings.json";
+import settings from "data.json";
 import gravatar from "gravatar.json";
 
 export default function Index() {

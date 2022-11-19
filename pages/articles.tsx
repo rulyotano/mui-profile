@@ -7,7 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import Copyright from "components/Copyright";
 import AppBar from "components/Appbar";
 import ArticleDataItem from "components/articles/ArticleDataItem";
-import settings from "settings.json";
+import settings from "data.json";
 
 export default function Articles() {
 

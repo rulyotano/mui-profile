@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import MuiLink from '@material-ui/core/Link';
-import settings from "../settings.json";
+import settings from "../data.json";
 
 export default function Copyright() {
   const websiteName = settings.companyName;

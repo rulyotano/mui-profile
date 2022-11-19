@@ -1,0 +1,263 @@
+{
+  "fullName": "Raúl Otaño Hurtado",
+  "imageUrl": "https://lh3.googleusercontent.com/pw/ACtC-3dSRq5XYgA45W4sFsiJ1UFBQl4t4fMUaN1u9PVADihUX2k-n-suB_M9lF9oF6BAHVa1BZYYQ2j2hGyJKwyYMhl1o5vPA7PoEG66l9Cai7eLZWd3tlcx48kjIW8pdeQaXaX8BceTB3uBgNavYQJqkjH8hw",
+  "imageIconUrl": "/avatar-favicon-01.ico",
+  "role": "Software Engineer",
+  "webSite": "https://rulyotano.com",
+  "companyName": "rulyotano",
+  "techStaff": [
+    "c#",
+    "javascript",
+    "typescript",
+    "react",
+    ".net",
+    "asp.net mvc",
+    "redux",
+    "flux",
+    "SOLID",
+    "clean code",
+    "unit tests",
+    "python",
+    "problem solving",
+    "algorithms",
+    "TDD",
+    "DDD"
+  ],
+  "experience": [
+    {
+      "title": "Backend Software Engineer (.NET) at DocPlanner",
+      "place": "DocPlanner",
+      "placeUrl": "https://www.docplanner.com/about-us",
+      "image": "https://lh3.googleusercontent.com/pw/ACtC-3eAdZYp96so-BMbxGty_qum7xEBApzC39b0q3MhLujo6_7-2acXmN-Uk9at4yzwacVdVFG99mM3D9BgZjqz0k0xP3Ytg_UR0lGkebzs-ATQaRJgEh9-EqC-v69EdVg8XzDAxqh5-StHFRKUioLIMRSGLw",
+      "timePeriod": "2021/03 - actually",
+      "contentParagraphs": []
+    },
+    {
+      "title": "Senior Software Developer",
+      "place": "Mimacom",
+      "placeUrl": "https://mimacom.com",
+      "image": "https://lh3.googleusercontent.com/pw/ACtC-3eff4oY4kxz2EnFykM7JL1eeed-Cjak9NdJg2qLBMGX3k7DB2OiWxlw1abPi2zDfcu3Kn-RGS3z8mYMn0lwEq0rX62L5-cSjYHmulDJaS227hAJOSEM0scENJyUzz7UnYRnLETsw21dtC40RKiQ9LTpmw",
+      "timePeriod": "2020/07 - 2021/03",
+      "contentParagraphs": [
+        "Worked as frontend ReactJs developer for a company's client, an international bank name Openbank. Worked there in one specific project created from scratch, created with good practices and patterns."
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "place": "Consol Freight LLC",
+      "placeUrl": "https://consolfreight.com",
+      "image": "https://lh3.googleusercontent.com/pw/ACtC-3fTn39b_g3K6nCYsI4OkuEP_jBgkr4zLcOR_KATKLuwbZPk2YI0Irr1OBoDbRTbFCU6xt9PUMPnCNfpksJLMnD-Il5eFJ9Jd_0wAQy3Q37FEp1mUsdpgyZuGg2jR72V7ecUGSt9rq7l38AmqiZMHNnYGg",
+      "timePeriod": "2018/04 - 2020/06",
+      "contentParagraphs": [
+        "Lead software developer for developing and maintaining the platform system. It was like a social network for moving maritime charges. The API system was made on ASP.NET MVC CORE with C# and with .NET tech in general. The front-end part was done using React.js tech."
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "place": "Solinftec",
+      "placeUrl": "https://solinftec.com",
+      "image": "https://lh3.googleusercontent.com/pw/ACtC-3fYfddxp5HeZPvTQErQTWmvnHr7UKkF89bvyxN-_Rr5uXsWxfuTjL0a7R6XL8bxGb5_juCAOL9FINT_FvVm4VZadd-9xXKofHgLJGa2iEerbR2rr2GjhINqtRK0NC7alkjErrL3HuFbLj0sqxrb3_YsiQ",
+      "timePeriod": "2016/08 - 2018/08",
+      "contentParagraphs": [
+        "Lead frontend Software Develop for creating the online system for monitoring the agriculture pieces of equipment. Need to show maps with area and movements, tracking of measured parameters, data analysis, data charts, tables, etc. Done using AngularJs, and ReactJs. The part of the maps was done with GoogleMaps and Mapbox."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "place": "Xmovo",
+      "placeUrl": "https://www.linkedin.com/company/xmovo-group-inc/about",
+      "image": "https://lh3.googleusercontent.com/pw/ACtC-3fU8evJuHGccK1xxYDcu1QBFtEW2oLb_nWLTFMRvhRbYSus9NtvpWembwrLb-cINr75dLmXTVAEMecv9hPOWlJFCibTbZ4EQnM_1xF5mAsm2HhcS-ixFM4tZQMNoNvnLO7OTaGsqsDTsYy73GsVTO9Tnw",
+      "timePeriod": "2014/09 - 2016/08",
+      "contentParagraphs": [
+        "Web Developer for creating Xmovo, a social network for training and fitness. Was developed using .NET technologies: Asp.NET MVC 5, C#, Angular JS, and then React JS, Signal-R, DDD, SOLID principles, and others."
+      ]
+    },
+    {
+      "title": "Lead Software Developer",
+      "place": "Hayco",
+      "placeUrl": "http://www.hayco.icrt.cu/",
+      "image": "https://lh3.googleusercontent.com/pw/ACtC-3eQJriRcdCJkRizjvFIXeKjIIh-YQMBt_SiHeBfZL_GjvNprUeBsxlLcb1OQcIz0oEUHSV-Wm3lSxWFfHaRnzprzCXnbeSRS7egD1xwU3_kkoWLOhRLk4mJY3OczUKucsGi4BNMfkk-OB-d1V7NMN-zaw",
+      "timePeriod": "2014/11 - 2015/12",
+      "contentParagraphs": [
+        "Develop and maintain all kind of software in the company. Mainly on .NET technologies."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Computer Science Bachelor of Science (BSc)",
+      "place": "University of Havana",
+      "placeUrl": "http://www.uh.cu",
+      "image": "https://lh3.googleusercontent.com/pw/ACtC-3eU2fJDzygIqoFlfDqF1-MmM2MfyHQYMx6qnRv1hf07lbF-BtvJ-MTXdqMsJT7kdTQqur1wZYihHUJAhBYuI_zW67_tzJlUiVaXj_vhNiVYIIiVB75xL6ZyIDKorHn2_veH_77OG_wqDVP4Edwsq1Z71A",
+      "timePeriod": "2007/09 - 2013/05"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Rulyotano.Math",
+      "github": "https://github.com/rulyotano/Rulyotano.Math",
+      "nuget": "https://www.nuget.org/packages/Rulyotano.Math",
+      "contentParagraphs": [
+        "Dotnet helper libraries. Currently, the most interesting is a helper to interpolate points by using Bezier curves."
+      ],
+      "image": "https://github.com/rulyotano/wpf-bezier-interpolation/blob/master/interpolation-bezier-curves.gif?raw=true"
+    },
+    {
+      "title": "Tree Extended",
+      "github": "https://github.com/rulyotano/tree-extended",
+      "npm": "https://www.npmjs.com/package/tree-extended",
+      "contentParagraphs": [
+        "A npm library that we can use to get directory tries in a custom way. Also implemented a VsCode extension to do it easily."
+      ],
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEUSX7FjgXCpO8wkjBFnfAAB9OTNcBq4UMU0UFe4IV9d9JZ7e-SQxB2lt82kDxdA7gWoRUrJR7oSlFAesjLTYf8okYRNxHgnGGoBycg_0WKBrBqOI5Notap3jdH8wmAnNttC-AODSXaIPKqlYH1_OCLAJw"
+    },
+    {
+      "title": "My MinesSweeper! 😎",
+      "github": "https://github.com/rulyotano/minesweeper",
+      "web": "https://webminesweeper.azurewebsites.net/mines-sweeper",
+      "contentParagraphs": [
+        "Just a fun project, but it is a good example of how to use ReactJs + Redux pattern. Also, I play it a lot when I'm bored."
+      ],
+      "image": "https://github.com/rulyotano/minesweeper/raw/master/images/mineminesweeper-redux.gif?raw=true"
+    },
+    {
+      "title": "Mimacom Challenge 💪",
+      "github": "https://github.com/rulyotano/mimacom_react_task",
+      "web": "https://mimacom-shop.azurewebsites.net/",
+      "contentParagraphs": [
+        "This project is challenge to enter into Mimacom company as a frontend developer. It can help as a React + Redux example."
+      ],
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEXxzGOG3KrbbY7P5JcE2m_dmX88eQYVcb7rK64GofErMwlI86c5zVO68de4qTqV6nhQ0Ig3_Y0zctpYk5Cz67y38AuwUIxAXE6lBQNx-nhsE4BaDIL2-1xd4Q_uj7Nb82kJswXrMId3p_GNYDbqT8N0Nw"
+    },
+    {
+      "title": "Mui Profile (this site!)",
+      "github": "https://github.com/rulyotano/mui-profile",
+      "web": "https://rulyotano.com",
+      "contentParagraphs": [
+        "Done using React + NextJs + Material UI, this is the source code of this site. It is automatically released to github pages on push to master."
+      ],
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEUeArJGojV2AZAq21XL5vILKxpUYcXUpq7VgUn2_EKqajaYWlODLFHX0RI4T690hH7cs4D36XvQsHxg5OI1MRG8X6dmSTNTInvHM4FhnzwO3jfY84r9Fcc7TES0_24pe1XL4YqQY2JIujXr62Z9fnpkMg"
+    },
+    {
+      "title": "Othello/Reversi game with AI players",
+      "github": "https://github.com/rulyotano/othello-reversi-wpf",
+      "contentParagraphs": [
+        "This was a project for the AI course in the University: creating AI players to play Othello game. We did a tournament with all the students player. This is the winner!"
+      ],
+      "image": "https://github.com/rulyotano/othello-reversi-wpf/raw/master/otello-reversi-game.gif?raw=true"
+    },
+    {
+      "title": "WPF draggable animated panel",
+      "github": "https://github.com/rulyotano/wpf-drag-animated-panel",
+      "contentParagraphs": [
+        "Back then, Safari web browser had a similar panel and I wanted to have it in WPF."
+      ],
+      "image": "https://github.com/rulyotano/wpf-drag-animated-panel/raw/master/grag-animated-panel.gif?raw=true"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Interpolate 2D points, usign Bezier curves in WPF",
+      "web": "https://www.codeproject.com/Articles/769055/Interpolate-D-points-usign-Bezier-curves-in-WPF",
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEXBNW-hhOomJPN6cHlZyBMLOwNBVjhkFt9GTLNIwK7qGaJXafhDU0QaTjwrYGIIWNogCRk50CbAGAqpc-WadU86M7V6rOM0E3ODYWGQ0-y9FQCH_VdX-97tnXcjnlDOzHHyKX1_q9ewjN56Syn4jclRRw",
+      "contentParagraphs": [
+        "Do you know how to do, from a list of points to get a curve line that pass through all of them? In this article we explain how to do it by using Bezier Curves."
+      ]
+    },
+    {
+      "title": "Tree-Extended, a tool to get custom directories trees",
+      "web": "https://medium.com/@rulyotano/tree-extended-a-tool-to-get-custom-directories-trees-3dea42ebf407",
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEWMmO1c93JC_i2iDghbTmCBUHpiLt1x5zux91CVjaTSG4sm7Z2TBY12qsQsMtPFALhxXFg5NSpoBmXw885sUJvB-Rf83l4hiI_T5mI2riMyttYdvMnaur5ntx1c_TCfywfNG0dDNJZaekpWY6IIt8b76g",
+      "contentParagraphs": [
+        "Here we explain how to use a tool developed to match the needs to document projects directories in a very customized way. I created a command line tool and also, a VsCode extension in order to do that."
+      ]
+    },
+    {
+      "title": "Get Your Personal Website for Free: Create it with ReactJs",
+      "web": "https://medium.com/@rulyotano/get-your-personal-website-for-free-create-it-with-reactjs-b7e3c3c874b4",
+      "image": "https://lh3.googleusercontent.com/pw/AL9nZEUUQh8p5f6W6trJAeERKMoZjpSi9dA46jLobm7YB9LzJWjR8mDRJm7v-DYl7J03RHWDuJIBqrsyCmbtnoQtoYlzoFvn69wEka9kQUqtLJw4gvYx73lf_UIxpTy0qTAFDdaQz-Eh1szy57KvZKqKoxjBhA",
+      "contentParagraphs": [
+        "I want to show how create for free a personal webpage by using GitHub Pages + ReactJs + NextJs + Material UI."
+      ]
+    }
+  ],
+  "recommendedBooks": [
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "web": "https://www.goodreads.com/book/show/3735293-clean-code",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436202607l/3735293._SX318_.jpg",
+      "contentParagraphs": [
+        "This gives us a lot of good tips to write better code. We need to code thinking others will read it.",
+        "I liked this book a lot. I tend to use these advices in the day by day coding, not all of them, you can pick the ones you find useful."
+      ]
+    },
+    {
+      "title": "Clean Architecture",
+      "author": "Robert C. Martin",
+      "web": "https://www.goodreads.com/book/show/18043011-clean-architecture",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471680093l/18043011._SX318_.jpg",
+      "contentParagraphs": [
+        "This book is like an extension of Clean Code. It is like same principles applied to software architecture."
+      ]
+    },
+    {
+      "title": ".NET Microservices: Architecture for Containerized .NET Applications",
+      "author": "Cesar de la Torre, Bill Wagner, Mike Rousos",
+      "web": "https://docs.microsoft.com/en-us/dotnet/architecture/microservices/",
+      "image": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/media/cover-large.png",
+      "contentParagraphs": [
+        "Good book to get introduced into the microservices world. We can learn by actually coding a microservice.",
+        "We can find a lot of useful references here to dig into this world."
+      ]
+    },
+    {
+      "title": "Cracking the Coding Interview",
+      "author": "Gayle Laakmann McDowell",
+      "web": "http://www.crackingthecodinginterview.com",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597774525l/55014663._SY475_.jpg",
+      "contentParagraphs": [
+        "Not only to prepare for coding interviews. This one teach you a lot of things that every software engineer needs to know."
+      ]
+    },
+    {
+      "title": "Domain-Driven Design Distilled",
+      "author": "Vaughn Vernon",
+      "web": "https://www.goodreads.com/book/show/28602719-domain-driven-design-distilled",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453681660l/28602719.jpg",
+      "contentParagraphs": [
+        "'The book' to learn DDD."
+      ]
+    },
+    {
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "web": "https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415816873l/23463279.jpg",
+      "contentParagraphs": [
+        "A long book, but this is like a mandatory reference for some software architecture sections.",
+        "You can find how different types of DBs are implemented or how distributed system manage replication."
+      ]
+    },
+    {
+      "title": "System Design Interview - An insider's guide",
+      "author": "Alex Xu",
+      "web": "https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592265780l/54109255._SY475_.jpg",
+      "contentParagraphs": [
+        "Very good to prepare your self to coding interviews's system design questions. But also have I have learned a lot of things regarding to software architecture and how big systems works.",
+        "Also, the references you can find here are gold."
+      ]
+    },
+    {
+      "title": "System Design Interview - An insider's guide: Volume 2",
+      "author": "Alex Xu, Sahn Lam",
+      "web": "https://www.goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647464389l/60631342._SX318_.jpg",
+      "contentParagraphs": [
+        "An extension of volume 1 with some more examples. As the first volume, this is very good. This one continues teaching us a lot of amazing stuffs.",
+        "Again, follow the references."
+      ]
+    }
+  ]
+}

@@ -6,33 +6,32 @@ import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import Copyright from "components/Copyright";
 import AppBar from "components/Appbar";
-import ProjectDataItem from "components/projects/ProjectDataItem";
+import BookDataItem from "components/books/BookDataItem";
 import settings from "data.json";
 
-export default function Projects() {
+export default function Books() {
+
   return (
     <div>
       <Head>
-        <title>Raul's some fun projects</title>
+        <title>Tech books I recommend</title>
       </Head>
       <AppBar parent="/" />
       <Container maxWidth="md">
 
         <Box my={4} display="flex" flexDirection="column" alignItems="center">
-          <Typography variant="h4">Some interesting projects</Typography>
+          <Typography variant="h4">Tech books I recommend</Typography>
         </Box>
 
         <Grid container spacing={2}>
-          {settings.projects.map(it => (
+          {settings.recommendedBooks.map(it => (
             <Grid key={it.title} item xs={12} md={4}>
-              <ProjectDataItem
+              <BookDataItem
                 title={it.title}
+                author={it.author}
+                url={it.web}
                 image={it.image}
                 contentParagraphs={it.contentParagraphs}
-                webUrl={it.web}
-                nugetUrl={it.nuget}
-                githubUrl={it.github}
-                npmUrl={it.npm}
               />
             </Grid>
           ))}

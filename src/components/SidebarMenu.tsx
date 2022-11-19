@@ -6,14 +6,12 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItem from '@material-ui/core/ListItem';
 import AppsIcon from '@material-ui/icons/Apps';
 import ListItemText from '@material-ui/core/ListItemText';
-import Collapse from '@material-ui/core/Collapse';
 import Link from '@material-ui/core/Link';
 import NextLink from 'next/link';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ArticlesIcon from '@material-ui/icons/Description';
 import BookIcon from '@material-ui/icons/MenuBook';
-import settings from 'settings.json';
-import ExpandButton from 'components/ExpandButton';
+import settings from 'data.json';
 
 const useStyles = makeStyles((theme) => ({
   list: {
@@ -68,19 +66,14 @@ export default function ApplicationBar({ onClose = () => { } }) {
         </ListItem>
 
         {/* ===== Read Books ===== */}
-        <ListItem button onClick={() => toggleMenu(menus.readBooks)}>
+        <ListItem button>
           <ListItemIcon>
             <BookIcon />
           </ListItemIcon>
-          <ListItemText primary={"Recommended Books"} />
-
-          <ExpandButton expanded={readBooksOpened} />
+          <Link href={"/books"} color="inherit" component={NextLink}>
+            <ListItemText primary={"Recommended Books"} />
+          </Link>
         </ListItem>
-
-
-        <Collapse in={readBooksOpened} timeout="auto" unmountOnExit>
-          {readBooks.map(it => <ReadBooksMenuItem key={it.title} level={1} name={it.title} web={it.web} />)}
-        </Collapse>
       </List>
     </div>
   );
@@ -93,23 +86,4 @@ interface MenuItemProps {
   web?: string,
   npm?: string,
   nuget?: string,
-}
-
-interface ReadBooksItemProps {
-  level: number,
-  name: string,
-  web?: string
-}
-
-function ReadBooksMenuItem(props: ReadBooksItemProps) {
-  const classes = useStyles(props);
-  const { name, web } = props;
-
-  return <>
-    <ListItem className={classes.menuItem}>
-      <Link href={web} color="inherit" target="_blank">
-        <ListItemText primary={name} />
-      </Link>
-    </ListItem>
-  </>;
 }

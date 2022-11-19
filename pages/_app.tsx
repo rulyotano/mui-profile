@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from 'theme';
-import settings from 'settings.json';
+import settings from 'data.json';
 import gravatar from "gravatar.json";
 
 export default function MyApp(props) {
