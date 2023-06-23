@@ -1,4 +1,5 @@
 import React from "react";
+import { makeStyles } from '@material-ui/core/styles';
 import MailIcon from "@material-ui/icons/Mail";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
@@ -9,7 +10,6 @@ import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
-// import Skeleton from '@material-ui/lab/Skeleton';
 import Copyright from "components/Copyright";
 import Avatar from "components/Avatar";
 import ReferenceIcon from "components/ReferenceIcon";
@@ -18,7 +18,7 @@ import StackOverflowItem from "components/StackOverflowItem";
 import StackOverflowIcon from "components/icons/StackOverflowIcon";
 import HackerrankIcon from "components/icons/HackerrankIcon";
 import CodesignalIcon from "components/icons/CodesignalIcon";
-import AppBar from "components/Appbar";
+import SectionItemReference from "components/SectionItemReference";
 import DataItem from "components/DataItem";
 import settings from "data.json";
 import gravatar from "gravatar.json";
@@ -29,9 +29,9 @@ export default function Index() {
   const [gravatarItem] = gravatar.entry;
 
   const profileImage = `${gravatarItem.thumbnailUrl}?s=160`;
+  const classes = useStyles();
   return (
     <div>
-      <AppBar />
       <Container maxWidth="md">
         <Box my={4} display="flex" flexDirection="column" alignItems="center">
           <Avatar imgSrc={profileImage} imgAlt={name} />
@@ -137,6 +137,15 @@ export default function Index() {
 
           <Box my={2} />
 
+          <SectionItemReference title="Articles" link="/articles"/>
+          <Box my={2} />
+
+          <SectionItemReference title="Projects" link="/projects"/>
+          <Box my={2} />
+
+          <SectionItemReference title="Read Books" link="/books"/>
+          <Box my={2} />
+
           <SectionItem title="Tech staff" initiallyExpanded>
             {settings.techStaff.map(staff => (
               <Box display="inline-block" key={staff} m={0.5}>
@@ -153,3 +162,9 @@ export default function Index() {
     </div>
   );
 }
+
+const useStyles = makeStyles((theme) => ({
+  title: {
+    marginLeft: theme.spacing(2)
+  }
+}))

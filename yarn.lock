@@ -4554,6 +4554,26 @@ rsvp@^4.8.4:
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
+rulyotano.math.geometry@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/rulyotano.math.geometry/-/rulyotano.math.geometry-0.1.0.tgz#a9d8b706bec59d870a8f34ea94cb4872def2c4da"
+  integrity sha512-sKAF9GaWVDMGuJ+At9JQRyxgkHlWo9ULx3cefLnCHfpwWtZlqq0dIEO2FrCNZ3V8IijloqgkYOK6rHd4v3NiuQ==
+  dependencies:
+    rulyotano.math "0.9.0"
+
+rulyotano.math.interpolation.bezier@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/rulyotano.math.interpolation.bezier/-/rulyotano.math.interpolation.bezier-0.1.0.tgz#15bccbfc4db26ecc2d1c492734fcee81a3ce059c"
+  integrity sha512-yr4oGs9kK3eZzkSUO8/yinoj0OllUi0emGsJhCQlUpLi/LCT1ZnVrfGAmzm5Ekx4VDgxVSP3wER+iCVBmxu4oA==
+  dependencies:
+    rulyotano.math "0.9.0"
+    rulyotano.math.geometry "0.1.0"
+
+rulyotano.math@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/rulyotano.math/-/rulyotano.math-0.9.0.tgz#1591fa6072890db3710b55132c7a839bf48bbed2"
+  integrity sha512-eKGqVGg8cDmJoAR0JKGzM6l7UN8M4vrtARoKWQMMiGrVCNzK9O9a6RzJ8pP7pj1zvZG1PJudHvnOS/orj7H+Dw==
+
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
