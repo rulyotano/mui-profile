@@ -125,13 +125,10 @@ export default function App() {
         />
         <br />
         <label>Is Close Curve:</label>{" "}
-        <Input
+        <input
           type="checkbox"
-          value={isClosed}
-          inputProps={{
-            checked: isClosed,
-            onChange: (e) => onIsClosedChange(e.target.checked)
-          }}
+          checked={isClosed}
+          onChange={(e) => onIsClosedChange(e.target.checked)}
         />
         <br />
         <Button onClick={(e) => { onClear(); e.preventDefault(); }}>Clear</Button>
