@@ -3,9 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 import LinkIcon from './LinkIcon';
-// import Link from './Link';
+import Link from './Link';
 
 export default function SectionItem({ title = "", link = "" }) {
   const classes = useStyles();

@@ -59,10 +59,12 @@ interface LinkProps {
   onClick?: Function,
   prefetch?: boolean,
   innerRef?: Ref<any>,
+  children?: React.ReactNode,
+  color?: string
 }
 
 interface Href {
   pathname: string
 }
 
-export default React.forwardRef((props, ref) => <Link {...props} innerRef={ref} />);
+export default React.forwardRef<unknown, LinkProps>((props, ref) => <Link {...props} innerRef={ref} />);
