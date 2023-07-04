@@ -18,6 +18,7 @@ import StackOverflowItem from "components/StackOverflowItem";
 import StackOverflowIcon from "components/icons/StackOverflowIcon";
 import HackerrankIcon from "components/icons/HackerrankIcon";
 import CodesignalIcon from "components/icons/CodesignalIcon";
+import MediumIcon from "components/icons/MediumIcon";
 import SectionItemReference from "components/SectionItemReference";
 import DataItem from "components/DataItem";
 import settings from "data.json";
@@ -93,6 +94,13 @@ export default function Index() {
                   icon={CodesignalIcon}
                   description="codesignal/rulyotano"
                   href="https://app.codesignal.com/profile/rulyotano"
+                />
+              </Grid>
+              <Grid item>
+                <ReferenceIcon
+                  icon={MediumIcon}
+                  description="Medium"
+                  href="https://medium.com/@rulyotano"
                 />
               </Grid>
               <Grid item>
