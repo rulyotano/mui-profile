@@ -2,11 +2,20 @@ import { useState, useRef, MouseEvent } from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
-import Input from '@material-ui/core/Input';
+import Box from '@material-ui/core/Box';
 import AppBar from "components/Appbar";
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import TextField from '@material-ui/core/TextField';
+import Checkbox from '@material-ui/core/Checkbox';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Head from 'next/head';
 import { Point } from "rulyotano.math.geometry";
 import { BezierInterpolation } from "rulyotano.math.interpolation.bezier";
+import { Helpers } from "rulyotano.math.geometry";
+import Typography from "@material-ui/core/Typography";
+import Link from "components/Link";
 
 export default function App() {
   const classes = useStyles();
@@ -41,7 +50,12 @@ export default function App() {
   };
 
   const onAddPoint = (x: number, y: number) => {
-    setPoints([...points, getPointFromMouseEventCoordinates(x, y)]);
+    const newPoint = getPointFromMouseEventCoordinates(x, y);
+    const bestIndexToInsert = Helpers.bestPlaceToInsertPoint(newPoint, points);
+
+    setPoints([...points.slice(0, bestIndexToInsert),
+      newPoint,
+    ...points.slice(bestIndexToInsert)]);
   };
 
   const onClear = () => {
@@ -88,73 +102,125 @@ export default function App() {
       </Head>
       <AppBar parent="/" />
       <Container maxWidth="md">
-        <h1>Demo interpolate with Bezier curves</h1>
+        <Box m={4} />
 
-        <svg
-          ref={canvasRef}
-          className={classes.canvas}
-          onMouseUp={(e) => onMouseUp(e)}
-          onMouseMove={(e) => onMouseMove(e)}
-        >
-          <path className={classes.path} d={path} />
-          {points.map((p, i) => (
-            <CanvasPoint
-              key={i + p.getHashCode()}
-              point={p}
-              index={i}
-              onDragStart={onPointDragStart}
-              onPointMouseUp={onPointMouseUp}
+        <Typography variant="h2" component="h1" gutterBottom align="center">
+          Demo interpolate with Bezier curves
+        </Typography>
+
+        <Box m={4} />
+
+        <Typography variant="body1">
+          This is to demonstrate how we can use the <Link naked target="_blank" href="https://github.com/rulyotano/rulyotano.crosscutting.js/tree/main/src/rulyotano.math.interpolation.bezier">rulyotano.math.interpolation.bezier</Link> library to draw a curve that pass through a set of ordered points.
+        </Typography>
+        <Typography variant="body1">
+          You can find this <Link naked target="_blank" href="https://github.com/rulyotano/mui-profile/blob/master/pages/demos/bezier/index.tsx">demo's code base in here</Link>.
+        </Typography>
+
+        <Box m={2} />
+
+        <Typography variant="h6">
+          Feel free to play a bit with the points. You can:
+        </Typography>
+
+        <List>
+          <ListItem>
+            <ListItemText
+              primary="Move the points"
+              secondary="(just desktop) Drag and drop the points withing the dark area."
             />
-          ))}
-        </svg>
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Add new points"
+              secondary="Click inside the dark area. NOTE: the new point will be inserted in the best curve segment, in this case the closest one. Using a helper function from the libraries named: Helpers.bestPlaceToInsertPoint();"
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Remove points"
+              secondary="Click inside one point."
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Choose smooth"
+              secondary="We can choose the smooth value used to generate the curve."
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Choose if it is a close curve"
+              secondary="We can check if we want an open or close curve (close has no start or end)"
+            />
+          </ListItem>
+        </List>
 
-        <p>Click in the background to add new point</p>
-        <p>Click in one point to delete it</p>
-        <p>Drag & Drop the points</p>
-        <label htmlFor="smoot">Smooth:</label>
-        <Input
-          id="smoot"
-          type="number"
-          inputProps={{
-            min: "0",
-            max: "2",
-            step: "0.1"
-          }}
-          value={smooth}
-          onChange={(e) => onSmoothChange(Number.parseFloat(e.target.value))}
-        />
-        <br />
-        <label>Is Close Curve:</label>{" "}
-        <input
-          type="checkbox"
-          checked={isClosed}
-          onChange={(e) => onIsClosedChange(e.target.checked)}
-        />
-        <br />
-        <Button onClick={(e) => { onClear(); e.preventDefault(); }}>Clear</Button>
+        <Box m={2} />
+
+        <Box>
+          <svg
+            ref={canvasRef}
+            className={classes.canvas}
+            onMouseUp={(e) => onMouseUp(e)}
+            onMouseMove={(e) => onMouseMove(e)}
+          >
+            <path className={classes.path} d={path} />
+            {points.map((p, i) => (
+              <CanvasPoint
+                key={i + p.getHashCode()}
+                point={p}
+                index={i}
+                onDragStart={onPointDragStart}
+                onPointMouseUp={onPointMouseUp}
+              />
+            ))}
+          </svg>
+        </Box>
+
+        <Box m={2} display="flex" flexDirection="row" alignItems="center" justifyContent="space-between">
+          <TextField
+            id="smoot"
+            label="Smooth:"
+            variant="outlined"
+            type="number"
+            inputProps={{
+              min: "0",
+              max: "2",
+              step: "0.1"
+            }}
+            value={smooth}
+            onChange={(e) => onSmoothChange(Number.parseFloat(e.target.value))}
+          />
+
+          <FormControlLabel control={<Checkbox defaultChecked checked={isClosed} onChange={(e) => onIsClosedChange(e.target.checked)} />} label="Is Close Curve" />
+
+          <Button onClick={(e) => { onClear(); e.preventDefault(); }}>Clear</Button>
+        </Box>
       </Container>
     </div>
   );
 }
+
+type PointProps = {
+  point: Point;
+  index: number;
+  onDragStart: (i: number) => void;
+  onPointMouseUp: (e: MouseEvent, i: number) => void;
+};
 
 function CanvasPoint({
   point,
   index,
   onDragStart,
   onPointMouseUp
-}: {
-  point: Point;
-  index: number;
-  onDragStart: (i: number) => void;
-  onPointMouseUp: (e: MouseEvent, i: number) => void;
-}) {
-  const classes = useStyles();
+}: PointProps) {
+  const [isMouseIn, setIsMouseIn] = useState(false);
   return (
     <circle
-      className={classes.point}
       cx={point.x}
       cy={point.y}
-      r="3"
+      r={isMouseIn ? 5 : 3}
       stroke="black"
       strokeWidth="1"
       fill="red"
@@ -163,6 +229,8 @@ function CanvasPoint({
           onDragStart(index);
         }
       }}
+      onMouseEnter={() => setIsMouseIn(true)}
+      onMouseLeave={() => setIsMouseIn(false)}
       onMouseUp={(e) => onPointMouseUp(e, index)}
     />
   );
@@ -177,10 +245,5 @@ const useStyles = makeStyles((theme) => ({
   path: {
     fill: "none",
     stroke: theme.palette.info.main
-  },
-  point: {
-    '&:hover': {
-      strokeWidth: theme.spacing(0.3)
-    }
   }
 }))

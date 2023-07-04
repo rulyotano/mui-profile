@@ -60,7 +60,8 @@ interface LinkProps {
   prefetch?: boolean,
   innerRef?: Ref<any>,
   children?: React.ReactNode,
-  color?: string
+  color?: string,
+  target?: string
 }
 
 interface Href {
