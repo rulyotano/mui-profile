@@ -30,16 +30,18 @@
       "placeUrl": "https://www.docplanner.com/about-us",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3eAdZYp96so-BMbxGty_qum7xEBApzC39b0q3MhLujo6_7-2acXmN-Uk9at4yzwacVdVFG99mM3D9BgZjqz0k0xP3Ytg_UR0lGkebzs-ATQaRJgEh9-EqC-v69EdVg8XzDAxqh5-StHFRKUioLIMRSGLw",
       "timePeriod": "2021/03 - actually",
-      "contentParagraphs": []
+      "contentParagraphs": [
+        "Worked as part of my team Umbrella. DP has two main parts, one is the marketplace where patients search for doctors, and the other part is where the doctors manage their patients, patients’ episodes, and appointments. We worked in the doctor part, specifically patients and episodes. Among the challenges we faced, one interesting one was to take parts from the big monolith to new dedicated microservices."
+      ]
     },
     {
       "title": "Senior Software Developer",
       "place": "Mimacom",
-      "placeUrl": "https://mimacom.com",
-      "image": "https://lh3.googleusercontent.com/pw/ACtC-3eff4oY4kxz2EnFykM7JL1eeed-Cjak9NdJg2qLBMGX3k7DB2OiWxlw1abPi2zDfcu3Kn-RGS3z8mYMn0lwEq0rX62L5-cSjYHmulDJaS227hAJOSEM0scENJyUzz7UnYRnLETsw21dtC40RKiQ9LTpmw",
+      "placeUrl": "https://mimacom.com/es",
+      "image": "/img/mimacom-favicon.ico",
       "timePeriod": "2020/07 - 2021/03",
       "contentParagraphs": [
-        "Worked as frontend ReactJs developer for a company's client, an international bank name Openbank. Worked there in one specific project created from scratch, created with good practices and patterns."
+        "Worked as a Senior Software Developer for one of the company’s clients: Openbank. Mainly worked on frontend projects on ReactJs. Also, conducted many job interviews to new candidates that wanted to join the company."
       ]
     },
     {
@@ -94,13 +96,23 @@
   ],
   "projects": [
     {
-      "title": "Rulyotano.Math",
-      "github": "https://github.com/rulyotano/Rulyotano.Math",
-      "nuget": "https://www.nuget.org/packages/Rulyotano.Math",
+      "title": "Rulyotano.CrossCutting",
+      "github": "https://github.com/rulyotano/Rulyotano.CrossCutting",
+      "nuget": "https://www.nuget.org/packages/Rulyotano.Math.Interpolation.Bezier",
       "contentParagraphs": [
-        "Dotnet helper libraries. Currently, the most interesting is a helper to interpolate points by using Bezier curves."
+        "A set of dotnet helper libraries. Currently, the most interesting is a helper to interpolate points by using Bezier curves."
       ],
       "image": "https://github.com/rulyotano/wpf-bezier-interpolation/blob/master/interpolation-bezier-curves.gif?raw=true"
+    },
+    {
+      "title": "rulyotano.crosscutting.js",
+      "github": "https://github.com/rulyotano/rulyotano.crosscutting.js",
+      "npm": "https://www.npmjs.com/package/rulyotano.math.interpolation.bezier",
+      "web": "/demos/bezier",
+      "contentParagraphs": [
+        "A set of javascript helper libraries. The idea is to do the same as in the Rulyotano.CrossCutting ones."
+      ],
+      "image": "/img/demo-bezier.jpg"
     },
     {
       "title": "Tree Extended",
