@@ -126,7 +126,7 @@
     {
       "title": "My MinesSweeper! 😎",
       "github": "https://github.com/rulyotano/minesweeper",
-      "web": "http://minesweeper.rulyotano.com/mines-sweeper",
+      "web": "https://minesweeper.rulyotano.com/mines-sweeper",
       "contentParagraphs": [
         "Just a fun project, but it is a good example of how to use ReactJs + Redux pattern. Also, I play it a lot when I'm bored."
       ],
