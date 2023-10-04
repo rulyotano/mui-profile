@@ -35,43 +35,43 @@
       ]
     },
     {
-      "title": "Senior Software Developer",
+      "title": "Senior Software Engineer",
       "place": "Mimacom",
       "placeUrl": "https://mimacom.com/es",
       "image": "/img/mimacom-favicon.ico",
       "timePeriod": "2020/07 - 2021/03",
       "contentParagraphs": [
-        "Worked as a Senior Software Developer for one of the company’s clients: Openbank. Mainly worked on frontend projects on ReactJs. Also, conducted many job interviews to new candidates that wanted to join the company."
+        "Client: Openbank. Mainly worked on frontend projects on ReactJs. Also, conducted many job interviews to new candidates that wanted to join the company."
       ]
     },
     {
-      "title": "Full Stack Developer",
+      "title": "Full Stack Engineer",
       "place": "Consol Freight LLC",
       "placeUrl": "https://consolfreight.com",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3fTn39b_g3K6nCYsI4OkuEP_jBgkr4zLcOR_KATKLuwbZPk2YI0Irr1OBoDbRTbFCU6xt9PUMPnCNfpksJLMnD-Il5eFJ9Jd_0wAQy3Q37FEp1mUsdpgyZuGg2jR72V7ecUGSt9rq7l38AmqiZMHNnYGg",
       "timePeriod": "2018/04 - 2020/06",
       "contentParagraphs": [
-        "Lead software developer for developing and maintaining the platform system. It was like a social network for moving maritime charges. The API system was made on ASP.NET MVC CORE with C# and with .NET tech in general. The front-end part was done using React.js tech."
+        "Creating and maintaining the platform system. It was like a social network for moving maritime charges. The API system was made on ASP.NET MVC CORE with C# and with .NET tech in general. The front-end part was done using React.js tech."
       ]
     },
     {
-      "title": "Web Developer",
+      "title": "Web Engineer",
       "place": "Solinftec",
       "placeUrl": "https://solinftec.com",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3fYfddxp5HeZPvTQErQTWmvnHr7UKkF89bvyxN-_Rr5uXsWxfuTjL0a7R6XL8bxGb5_juCAOL9FINT_FvVm4VZadd-9xXKofHgLJGa2iEerbR2rr2GjhINqtRK0NC7alkjErrL3HuFbLj0sqxrb3_YsiQ",
       "timePeriod": "2016/08 - 2018/08",
       "contentParagraphs": [
-        "Lead frontend Software Develop for creating the online system for monitoring the agriculture pieces of equipment. Need to show maps with area and movements, tracking of measured parameters, data analysis, data charts, tables, etc. Done using AngularJs, and ReactJs. The part of the maps was done with GoogleMaps and Mapbox."
+        "Creating the online system for monitoring the agriculture pieces of equipment. Needed to show maps with area and movements, tracking of measured parameters, data analysis, data charts, tables, etc. Done using AngularJs, and ReactJs. The part of the maps was done with GoogleMaps and Mapbox."
       ]
     },
     {
-      "title": "Software Developer",
+      "title": "Software Engineer",
       "place": "Xmovo",
       "placeUrl": "https://www.linkedin.com/company/xmovo-group-inc/about",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3fU8evJuHGccK1xxYDcu1QBFtEW2oLb_nWLTFMRvhRbYSus9NtvpWembwrLb-cINr75dLmXTVAEMecv9hPOWlJFCibTbZ4EQnM_1xF5mAsm2HhcS-ixFM4tZQMNoNvnLO7OTaGsqsDTsYy73GsVTO9Tnw",
       "timePeriod": "2014/09 - 2016/08",
       "contentParagraphs": [
-        "Web Developer for creating Xmovo, a social network for training and fitness. Was developed using .NET technologies: Asp.NET MVC 5, C#, Angular JS, and then React JS, Signal-R, DDD, SOLID principles, and others."
+        "Creating Xmovo, a social network for training and fitness. Was developed using .NET technologies: Asp.NET MVC 5, C#, Angular JS, and then React JS, Signal-R, DDD, SOLID principles, and others."
       ]
     },
     {
@@ -126,7 +126,7 @@
     {
       "title": "My MinesSweeper! 😎",
       "github": "https://github.com/rulyotano/minesweeper",
-      "web": "https://minesweeper.rulyotano.com/mines-sweeper",
+      "web": "https://minesweeper.rulyotano.com",
       "contentParagraphs": [
         "Just a fun project, but it is a good example of how to use ReactJs + Redux pattern. Also, I play it a lot when I'm bored."
       ],
@@ -165,6 +165,14 @@
         "Back then, Safari web browser had a similar panel and I wanted to have it in WPF."
       ],
       "image": "https://github.com/rulyotano/wpf-drag-animated-panel/raw/master/grag-animated-panel.gif?raw=true"
+    },
+    {
+      "title": "Sample of Working Message Queue",
+      "github": "https://github.com/rulyotano/sample-queue-workers",
+      "contentParagraphs": [
+        "Sample project to create a message queue to process long running tasks."
+      ],
+      "image": "https://raw.githubusercontent.com/rulyotano/sample-queue-workers/main/images/3_2_more_workers.png"
     }
   ],
   "articles": [
