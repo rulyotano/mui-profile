@@ -115,13 +115,13 @@ export default function Index() {
           <Box m={4} />
 
           <SectionItem title="HI! 👋 I'm Raul" initiallyExpanded={true}>
-            <Typography variant="body1" component="p">I am a passionate coder with expertise in web development and a strong focus on clean code, good practices, and solid principles. I have a deep love for coding, algorithms, and data structures, and I enjoy working with various web technologies.</Typography>
+            <Typography variant="body1" component="p">I'm a passionate coder with expertise in web development, emphasizing clean code, good practices, and SOLID principles. I have a deep passion for coding, algorithms, data structures, and various web technologies.</Typography>
 
             <Box m={2} />
-            <Typography variant="body1" component="p">I have a solid understanding of system design and architecture, enabling me to create scalable and efficient solutions. I am also enthusiastic about contributing to open-source libraries and helpers.</Typography>
+            <Typography variant="body1" component="p">I like system design topics and would love to help to create scalable and efficient solutions. "I'm also enthusiastic about contributing to open-source projects, enhancing libraries, and assisting fellow developers.</Typography>
 
             <Box m={2} />
-            <Typography variant="body1" component="p">Let's collaborate and build amazing software together!</Typography>
+            <Typography variant="body1" component="p">I'm eager to collaborate and create outstanding software with you!</Typography>
 
             <Box m={2} />
             <Typography variant="h5" component="h5">Highlighted used Tech:</Typography>
