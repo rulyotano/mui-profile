@@ -123,25 +123,29 @@ export default function Index() {
             <Box m={2} />
             <Typography variant="body1" component="p">I'm eager to collaborate and create outstanding software with you!</Typography>
 
-            <Box m={2} />
-            <Typography variant="h5" component="h5">Highlighted used Tech:</Typography>
-
-            <Box m={2} />
-            <img src="https://img.shields.io/badge/-ReactJS-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="ReactJS" />
-            <img src="https://img.shields.io/badge/-AngularJS-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="AngularJS" />
-            <img src="https://img.shields.io/badge/-Vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue" />
-            <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-            <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-            <img src="https://img.shields.io/badge/-.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt=".NET" />
-            <img src="https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-            <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-            <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-            <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-            <img src="https://img.shields.io/badge/-Docker%20Swarm-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Swarm" />
-            <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-            <img src="https://img.shields.io/badge/-K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="K8s" />
-
           </SectionItem>
+
+          <Box m={2} />
+
+          <SectionItem title="Highlighted used Tech" initiallyExpanded={true}>
+            <div className={classes.techImages}>
+              <img src="https://img.shields.io/badge/-ReactJS-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="ReactJS" />
+              <img src="https://img.shields.io/badge/-AngularJS-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="AngularJS" />
+              <img src="https://img.shields.io/badge/-Vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue" />
+              <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+              <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+              <img src="https://img.shields.io/badge/-.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt=".NET" />
+              <img src="https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+              <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+              <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+              <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+              <img src="https://img.shields.io/badge/-Docker%20Swarm-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Swarm" />
+              <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+              <img src="https://img.shields.io/badge/-K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="K8s" />
+            </div>
+          </SectionItem>
+
+          <Box my={2} />
 
           <SectionItem title="Experience">
             {settings.experience.map(it => (
@@ -202,6 +206,11 @@ export default function Index() {
 
 const useStyles = makeStyles((theme) => ({
   title: {
-    marginLeft: theme.spacing(2)
+    marginLeft: theme.spacing(2),
+  },
+  techImages: {
+    '& > img': {
+      marginRight: theme.spacing(1)
+    }
   }
 }))
