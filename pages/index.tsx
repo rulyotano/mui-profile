@@ -21,6 +21,7 @@ import CodesignalIcon from "components/icons/CodesignalIcon";
 import MediumIcon from "components/icons/MediumIcon";
 import SectionItemReference from "components/SectionItemReference";
 import DataItem from "components/DataItem";
+import MineIcon from "@material-ui/icons/Brightness5Outlined";
 import settings from "data.json";
 import gravatar from "gravatar.json";
 
@@ -107,6 +108,13 @@ export default function Index() {
                 <ReferenceIcon
                   icon={MailIcon}
                   description="contact@rulyotano.com"
+                />
+              </Grid>
+              <Grid item>
+                <ReferenceIcon
+                  icon={MineIcon}
+                  description="play-and-score@minesweeper"
+                  href="https://minesweeper.rulyotano.com"
                 />
               </Grid>
             </Grid>
