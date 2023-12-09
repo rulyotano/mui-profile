@@ -30,46 +30,49 @@
       "placeUrl": "https://www.docplanner.com/about-us",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3eAdZYp96so-BMbxGty_qum7xEBApzC39b0q3MhLujo6_7-2acXmN-Uk9at4yzwacVdVFG99mM3D9BgZjqz0k0xP3Ytg_UR0lGkebzs-ATQaRJgEh9-EqC-v69EdVg8XzDAxqh5-StHFRKUioLIMRSGLw",
       "timePeriod": "2021/03 - actually",
-      "contentParagraphs": []
-    },
-    {
-      "title": "Senior Software Developer",
-      "place": "Mimacom",
-      "placeUrl": "https://mimacom.com",
-      "image": "https://lh3.googleusercontent.com/pw/ACtC-3eff4oY4kxz2EnFykM7JL1eeed-Cjak9NdJg2qLBMGX3k7DB2OiWxlw1abPi2zDfcu3Kn-RGS3z8mYMn0lwEq0rX62L5-cSjYHmulDJaS227hAJOSEM0scENJyUzz7UnYRnLETsw21dtC40RKiQ9LTpmw",
-      "timePeriod": "2020/07 - 2021/03",
       "contentParagraphs": [
-        "Worked as frontend ReactJs developer for a company's client, an international bank name Openbank. Worked there in one specific project created from scratch, created with good practices and patterns."
+        "I worked as a member of the Umbrella team. DP had two main components: a patient-doctor marketplace and a platform for doctors to manage patients, episodes, and appointments. I primarily worked on the doctor's side, with a specific focus on managing patients, episodes, and related tasks. I encountered various challenges, including optimizing existing code to enhance throughput and reduce latency. I also took the initiative to create new micro-services from scratch. Throughout this experience, I acquired a wealth of new knowledge and skills."
       ]
     },
     {
-      "title": "Full Stack Developer",
+      "title": "Senior Software Engineer for Openbank",
+      "place": "Mimacom",
+      "placeUrl": "https://mimacom.com/es",
+      "image": "/img/mimacom-favicon.ico",
+      "timePeriod": "2020/07 - 2021/03",
+      "contentParagraphs": [
+        "I served as a Senior Software Developer at Openbank, a client of Mimacom. My role primarily focused on frontend development using React.js. The primary challenge was to develop a new on-boarding application while adhering to best practice standards and incorporating Openbank technologies.A portion of the application required integration into the mobile app, which presented an additional challenge. I also conducted numerous job interviews for candidates interested in joining Mimacom."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
       "place": "Consol Freight LLC",
       "placeUrl": "https://consolfreight.com",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3fTn39b_g3K6nCYsI4OkuEP_jBgkr4zLcOR_KATKLuwbZPk2YI0Irr1OBoDbRTbFCU6xt9PUMPnCNfpksJLMnD-Il5eFJ9Jd_0wAQy3Q37FEp1mUsdpgyZuGg2jR72V7ecUGSt9rq7l38AmqiZMHNnYGg",
       "timePeriod": "2018/04 - 2020/06",
       "contentParagraphs": [
-        "Lead software developer for developing and maintaining the platform system. It was like a social network for moving maritime charges. The API system was made on ASP.NET MVC CORE with C# and with .NET tech in general. The front-end part was done using React.js tech."
+        "I served as a full-stack engineer to successfully complete and launch the ConsolFreight web application. The primary objective of this system was to facilitate the sale of cargo routes to individuals and businesses looking to ship their goods. One of the major challenges involved translating complex industry requirements into a coherent domain definition that could be implemented in the application. I utilized a combination of technologies, including Aspnet MVC, MVC Core, ReactJs/Redux, and also played a key role in setting up CI/CD pipelines using Azure."
       ]
     },
     {
-      "title": "Web Developer",
+      "title": "Lead Frontend Software Engineer",
       "place": "Solinftec",
       "placeUrl": "https://solinftec.com",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3fYfddxp5HeZPvTQErQTWmvnHr7UKkF89bvyxN-_Rr5uXsWxfuTjL0a7R6XL8bxGb5_juCAOL9FINT_FvVm4VZadd-9xXKofHgLJGa2iEerbR2rr2GjhINqtRK0NC7alkjErrL3HuFbLj0sqxrb3_YsiQ",
       "timePeriod": "2016/08 - 2018/08",
       "contentParagraphs": [
-        "Lead frontend Software Develop for creating the online system for monitoring the agriculture pieces of equipment. Need to show maps with area and movements, tracking of measured parameters, data analysis, data charts, tables, etc. Done using AngularJs, and ReactJs. The part of the maps was done with GoogleMaps and Mapbox."
+        "Developed the web frontend system to display agriculture field data to users. The system displays maps showing the position and status of equipment. It also provides real-time weather condition information. The system sends alerts to users when specific parameters deviate from the expected range. Users can filter and manipulate the data. One of the key challenges was integrating various technologies, such as AngularJS and Google Maps. Additionally, we successfully migrated from Google Maps to Mapbox and from AngularJS to ReactJS over time."
       ]
     },
     {
-      "title": "Software Developer",
+      "title": "Fullstack Software Engineer",
       "place": "Xmovo",
       "placeUrl": "https://www.linkedin.com/company/xmovo-group-inc/about",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3fU8evJuHGccK1xxYDcu1QBFtEW2oLb_nWLTFMRvhRbYSus9NtvpWembwrLb-cINr75dLmXTVAEMecv9hPOWlJFCibTbZ4EQnM_1xF5mAsm2HhcS-ixFM4tZQMNoNvnLO7OTaGsqsDTsYy73GsVTO9Tnw",
       "timePeriod": "2014/09 - 2016/08",
       "contentParagraphs": [
-        "Web Developer for creating Xmovo, a social network for training and fitness. Was developed using .NET technologies: Asp.NET MVC 5, C#, Angular JS, and then React JS, Signal-R, DDD, SOLID principles, and others."
+        "I collaborated with the Xmovo team to develop a new social network website focused on training and fitness. This ambitious project featured a range of components, including a feeds section, notification system, chat functionality, e-commerce for training programs and memberships, live video training classes, and more. Unfortunately, the project was not successful, and the owners decided to close it.",
+        "Key Technologies: C#, ASP.NET MVC 5, Entity Framework 6, AngularJS, React.js, SignalR, Domain-Driven Design (DDD), SOLID principles, and more."
       ]
     },
     {
@@ -81,6 +84,18 @@
       "contentParagraphs": [
         "Develop and maintain all kind of software in the company. Mainly on .NET technologies."
       ]
+    },
+    {
+      "title": "Freelancer and Previous jobs",
+      "place": "Many companies (Synotech AG, doiTTeam, vWorker, ...",
+      "timePeriod": "2010 - 2013",
+      "contentParagraphs": [
+        "During my university years, I primarily worked as a freelance developer for various companies.",
+        "I developed numerous WPF applications and gained proficiency in best practices and design patterns, with MVVM being a prominent example, particularly in the context of WPF and Silverlight.",
+        "I collaborated with colleagues to establish the doiTTeam, an initiative focused on organizing our freelance work.",
+        "I successfully completed a couple of projects during my internship with a specific company I was assigned to.",
+        "During this period, I acquired valuable skills in real-world application development, primarily focusing on .NET technologies, including C#, WPF, Windows Forms, NHibernate, ActiveRecord, Entity Framework, various ORMs, and database systems like SQL Server and SQLite."
+      ]
     }
   ],
   "education": [
@@ -89,18 +104,33 @@
       "place": "University of Havana",
       "placeUrl": "http://www.uh.cu",
       "image": "https://lh3.googleusercontent.com/pw/ACtC-3eU2fJDzygIqoFlfDqF1-MmM2MfyHQYMx6qnRv1hf07lbF-BtvJ-MTXdqMsJT7kdTQqur1wZYihHUJAhBYuI_zW67_tzJlUiVaXj_vhNiVYIIiVB75xL6ZyIDKorHn2_veH_77OG_wqDVP4Edwsq1Z71A",
-      "timePeriod": "2007/09 - 2013/05"
+      "timePeriod": "2007/09 - 2013/05",
+      "contentParagraphs": [
+        "I graduated with a strong foundation in Computer Science, where I gained knowledge in a wide range of subjects.",
+        "My coursework covered fundamental topics such as mathematics, logic, and algebra, providing a solid grounding for my studies.",
+        "In addition, I delved into various Computer Science-related subjects, including programming, compilers, artificial intelligence, databases, networking, optimizations, and more."
+      ]
     }
   ],
   "projects": [
     {
-      "title": "Rulyotano.Math",
-      "github": "https://github.com/rulyotano/Rulyotano.Math",
-      "nuget": "https://www.nuget.org/packages/Rulyotano.Math",
+      "title": "Rulyotano.CrossCutting",
+      "github": "https://github.com/rulyotano/Rulyotano.CrossCutting",
+      "nuget": "https://www.nuget.org/packages/Rulyotano.Math.Interpolation.Bezier",
       "contentParagraphs": [
-        "Dotnet helper libraries. Currently, the most interesting is a helper to interpolate points by using Bezier curves."
+        "A set of dotnet helper libraries. Currently, the most interesting is a helper to interpolate points by using Bezier curves."
       ],
       "image": "https://github.com/rulyotano/wpf-bezier-interpolation/blob/master/interpolation-bezier-curves.gif?raw=true"
+    },
+    {
+      "title": "rulyotano.crosscutting.js",
+      "github": "https://github.com/rulyotano/rulyotano.crosscutting.js",
+      "npm": "https://www.npmjs.com/package/rulyotano.math.interpolation.bezier",
+      "web": "/demos/bezier",
+      "contentParagraphs": [
+        "A set of javascript helper libraries. The idea is to do the same as in the Rulyotano.CrossCutting ones."
+      ],
+      "image": "/img/demo-bezier.jpg"
     },
     {
       "title": "Tree Extended",
@@ -114,7 +144,7 @@
     {
       "title": "My MinesSweeper! 😎",
       "github": "https://github.com/rulyotano/minesweeper",
-      "web": "https://webminesweeper.azurewebsites.net/mines-sweeper",
+      "web": "https://minesweeper.rulyotano.com",
       "contentParagraphs": [
         "Just a fun project, but it is a good example of how to use ReactJs + Redux pattern. Also, I play it a lot when I'm bored."
       ],
@@ -153,6 +183,30 @@
         "Back then, Safari web browser had a similar panel and I wanted to have it in WPF."
       ],
       "image": "https://github.com/rulyotano/wpf-drag-animated-panel/raw/master/grag-animated-panel.gif?raw=true"
+    },
+    {
+      "title": "Sample of Working Message Queue",
+      "github": "https://github.com/rulyotano/sample-queue-workers",
+      "contentParagraphs": [
+        "Sample project to create a message queue to process long running tasks."
+      ],
+      "image": "https://raw.githubusercontent.com/rulyotano/sample-queue-workers/main/images/3_2_more_workers.png"
+    },
+    {
+      "title": "Sample of Creating Servers in Sequence with ZooKeeper",
+      "github": "https://github.com/rulyotano/sample-sequence-server-zookeeper",
+      "contentParagraphs": [
+        "The goal of this sample project is to be able to have many servers with a unique sequence number."
+      ],
+      "image": "https://i0.wp.com/datascientest.com/wp-content/uploads/2023/03/apache-zookeeper-datascientest.png?fit=1200%2C600&ssl=1"
+    },
+    {
+      "title": "CV",
+      "github": "https://github.com/rulyotano/cv",
+      "contentParagraphs": [
+        "This open-source project offers a LaTeX-based CV template that is designed for professional use."
+      ],
+      "image": "https://github.com/rulyotano/cv/blob/main/images/cv.png?raw=true"
     }
   ],
   "articles": [

@@ -11,6 +11,7 @@ import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import Collapse from '@material-ui/core/Collapse';
+import ImageIcon from '@material-ui/icons/Photo';
 import ExpandButton from './ExpandButton';
 import { getGoogleImageWithSize } from 'utils/googlePhotos';
 
@@ -25,14 +26,19 @@ export default function DataItem({ image = null, title = "", place = "", timePer
     <Card className={classes.root}>
 
       <Box display="flex" width="100%" justifyContent="space-between">
-        <CardMedia
-          component="img"
-          alt={title}
-          height="100"
-          image={imageWithSize}
-          title={title}
-          className={classes.image}
-        />
+
+
+        {imageWithSize ? (
+          <CardMedia
+            component="img"
+            alt={title}
+            height="100"
+            image={imageWithSize}
+            title={title}
+            className={classes.image}>
+          </CardMedia>) : <NoImage />}
+
+
         <Hidden xsDown>
           <Content classes={classes} title={title} place={place} timePeriod={timePeriod} placeUrl={placeUrl} />
         </Hidden>
@@ -88,6 +94,12 @@ const Actions = ({ isExpanded, setIsExpanded }) => {
   </CardActions>)
 }
 
+const NoImage = ({}) => {  
+  const classes = useStyles();
+
+  return <ImageIcon className={classes.noImage} />
+}
+
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -107,7 +119,14 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(2)
   },
   paragraph: {
-    textIndent: theme.spacing(1),
-    textAlign: "justify"
+    // textIndent: theme.spacing(1),
+    textAlign: "justify",
+    marginTop: theme.spacing(2),
+    lineHeight: 1.2
+  },
+  noImage: {
+    width: 50,
+    height: 50,
+    margin: theme.spacing(2)
   }
 }))
