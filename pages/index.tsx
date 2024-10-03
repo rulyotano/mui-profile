@@ -22,6 +22,7 @@ import MediumIcon from "components/icons/MediumIcon";
 import SectionItemReference from "components/SectionItemReference";
 import DataItem from "components/DataItem";
 import MineIcon from "@material-ui/icons/Brightness5Outlined";
+import BlogIcon from "components/icons/DrupalIcon";
 import settings from "data.json";
 import gravatar from "gravatar.json";
 
@@ -115,6 +116,13 @@ export default function Index() {
                   icon={MineIcon}
                   description="play-and-score@minesweeper"
                   href="https://minesweeper.rulyotano.com"
+                />
+              </Grid>
+              <Grid item>
+                <ReferenceIcon
+                  icon={BlogIcon}
+                  description="My blog"
+                  href="https://blog.rulyotano.com"
                 />
               </Grid>
             </Grid>
