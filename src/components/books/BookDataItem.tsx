@@ -6,23 +6,28 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
 import { getGoogleImageWithSize } from 'utils/googlePhotos';
+import ActionButton from 'components/ActionButton';
+import BlogIcon from 'components/icons/DrupalIcon';
+import WebIcon from '@material-ui/icons/ShoppingCart';
 
 type ArticleDataItemPropsType = {
   image: string,
   author: string,
   title: string,
   url: string,
+  blog: string,
   contentParagraphs: string[]
 }
 
-export default function BookDataItem({ image = null, author = "", title = "", url = "", contentParagraphs = [] }: ArticleDataItemPropsType) {
+export default function BookDataItem({ image = null, author = "", title = "", url = "", blog = "", contentParagraphs = [] }: ArticleDataItemPropsType) {
   const classes = useStyles();
 
   const imageWithSize = useMemo(() => getGoogleImageWithSize(image, 350), [image]);
 
   return (
-    <CustomLink url={url}>
+    <CustomLink url={blog}>
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
@@ -45,6 +50,10 @@ export default function BookDataItem({ image = null, author = "", title = "", ur
               </Typography>)}
           </CardContent>
         </CardActionArea>
+        <CardActions >
+          <ActionButton url={blog} icon={<BlogIcon />} />
+          <ActionButton url={url} icon={<WebIcon />} />
+        </CardActions>
       </Card>
     </CustomLink>
   );

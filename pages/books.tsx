@@ -30,6 +30,7 @@ export default function Books() {
                 title={it.title}
                 author={it.author}
                 url={it.web}
+                blog={it.blog}
                 image={it.image}
                 contentParagraphs={it.contentParagraphs}
               />

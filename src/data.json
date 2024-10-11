@@ -243,6 +243,7 @@
       "title": "Clean Code",
       "author": "Robert C. Martin",
       "web": "https://www.goodreads.com/book/show/3735293-clean-code",
+      "blog": "https://blog.rulyotano.com/books/clean-code",
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436202607l/3735293._SX318_.jpg",
       "contentParagraphs": [
         "This gives us a lot of good tips to write better code. We need to code thinking others will read it.",
@@ -253,25 +254,27 @@
       "title": "Clean Architecture",
       "author": "Robert C. Martin",
       "web": "https://www.goodreads.com/book/show/18043011-clean-architecture",
+      "blog": "https://blog.rulyotano.com/books/clean-architecture",
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471680093l/18043011._SX318_.jpg",
       "contentParagraphs": [
         "This book is like an extension of Clean Code. It is like same principles applied to software architecture."
       ]
     },
     {
-      "title": ".NET Microservices: Architecture for Containerized .NET Applications",
+      "title": ".NET Microservices: Arch. for Containerized .NET Applications",
       "author": "Cesar de la Torre, Bill Wagner, Mike Rousos",
       "web": "https://docs.microsoft.com/en-us/dotnet/architecture/microservices/",
+      "blog": "https://blog.rulyotano.com/books/dotnet-microservices",
       "image": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/media/cover-large.png",
       "contentParagraphs": [
-        "Good book to get introduced into the microservices world. We can learn by actually coding a microservice.",
-        "We can find a lot of useful references here to dig into this world."
+        "Good book to get introduced into the microservices world. We can learn by actually coding a microservice."
       ]
     },
     {
       "title": "Cracking the Coding Interview",
       "author": "Gayle Laakmann McDowell",
       "web": "http://www.crackingthecodinginterview.com",
+      "blog": "https://blog.rulyotano.com/books/cracking-coding-interviews",
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597774525l/55014663._SY475_.jpg",
       "contentParagraphs": [
         "Not only to prepare for coding interviews. This one teach you a lot of things that every software engineer needs to know."
@@ -281,6 +284,7 @@
       "title": "Domain-Driven Design Distilled",
       "author": "Vaughn Vernon",
       "web": "https://www.goodreads.com/book/show/28602719-domain-driven-design-distilled",
+      "blog": "https://blog.rulyotano.com/books/domain-driven-design",
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453681660l/28602719.jpg",
       "contentParagraphs": [
         "'The book' to learn DDD."
@@ -290,6 +294,7 @@
       "title": "Designing Data-Intensive Applications",
       "author": "Martin Kleppmann",
       "web": "https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications",
+      "blog": "https://blog.rulyotano.com/books/data-intensive-apps",
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415816873l/23463279.jpg",
       "contentParagraphs": [
         "A long book, but this is like a mandatory reference for some software architecture sections.",
@@ -300,6 +305,7 @@
       "title": "System Design Interview - An insider's guide",
       "author": "Alex Xu",
       "web": "https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide",
+      "blog": "https://blog.rulyotano.com/books/system-design-1",
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592265780l/54109255._SY475_.jpg",
       "contentParagraphs": [
         "Very good to prepare your self to coding interviews's system design questions. But also have I have learned a lot of things regarding to software architecture and how big systems works.",
@@ -310,10 +316,21 @@
       "title": "System Design Interview - An insider's guide: Volume 2",
       "author": "Alex Xu, Sahn Lam",
       "web": "https://www.goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide",
+      "blog": "https://blog.rulyotano.com/books/system-design-2",
       "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647464389l/60631342._SX318_.jpg",
       "contentParagraphs": [
         "An extension of volume 1 with some more examples. As the first volume, this is very good. This one continues teaching us a lot of amazing stuffs.",
         "Again, follow the references."
+      ]
+    },
+    {
+      "title": "Refactoring: Improving the Design of Existing Code",
+      "author": "Martin Fowler",
+      "web": "https://www.goodreads.com/book/show/218464849-refactoring",
+      "blog": "https://blog.rulyotano.com/books/refactoring-existing-code",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1725433212i/218464849.jpg",
+      "contentParagraphs": [
+        "Very good book. I've realized that I didn't know what 'refactoring' means. I was doing something different without know it wasn't 'refactoring'."
       ]
     }
   ]
