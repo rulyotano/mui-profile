@@ -163,7 +163,7 @@ export default function Index() {
 
           <Box my={2} />
 
-          <SectionItem title="Experience">
+          <SectionItem title="Experience" initiallyExpanded={true}>
             {settings.experience.map(it => (
               <DataItem
                 key={it.title}
