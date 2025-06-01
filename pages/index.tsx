@@ -93,13 +93,6 @@ export default function Index() {
               </Grid>
               <Grid item>
                 <ReferenceIcon
-                  icon={CodesignalIcon}
-                  description="codesignal/rulyotano"
-                  href="https://app.codesignal.com/profile/rulyotano"
-                />
-              </Grid>
-              <Grid item>
-                <ReferenceIcon
                   icon={MediumIcon}
                   description="Medium"
                   href="https://medium.com/@rulyotano"
