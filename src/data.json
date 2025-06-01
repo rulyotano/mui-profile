@@ -228,7 +228,15 @@
   ],
   "articles": [
     {
-      "title": "Interpolate 2D points, usign Bezier curves in WPF",
+      "title": "Latency improved by 20x times! How to do it?",
+      "web": "https://blog.rulyotano.com/blog/article/improve-service-latency",
+      "image": "/img/latency-mock-image.jpeg",
+      "contentParagraphs": [
+        "Explains how I manged to improve the latency of a service by 20x times. The article explains the steps I took to achieve this, including the tools and techniques used."
+      ]
+    },
+    {
+      "title": "Interpolate 2D points, using Bezier curves in WPF",
       "web": "https://blog.rulyotano.com/blog/article/wpf-bezier-interpolation",
       "image": "https://lh3.googleusercontent.com/pw/AL9nZEXBNW-hhOomJPN6cHlZyBMLOwNBVjhkFt9GTLNIwK7qGaJXafhDU0QaTjwrYGIIWNogCRk50CbAGAqpc-WadU86M7V6rOM0E3ODYWGQ0-y9FQCH_VdX-97tnXcjnlDOzHHyKX1_q9ewjN56Syn4jclRRw",
       "contentParagraphs": [
