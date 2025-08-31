@@ -25,6 +25,7 @@ import MineIcon from "@material-ui/icons/Brightness5Outlined";
 import BlogIcon from "components/icons/DrupalIcon";
 import settings from "data.json";
 import gravatar from "gravatar.json";
+import LeetcodeIcon from "components/icons/LeetcodeIcon";
 
 export default function Index() {
   const name = settings.fullName;
@@ -82,6 +83,13 @@ export default function Index() {
                   description="stackoverflow/raúl-otaño"
                   href="https://stackoverflow.com/users/1655482/ra%c3%bal-ota%c3%b1o"
                   expandContent={<StackOverflowItem />}
+                />
+              </Grid>
+              <Grid item>
+                <ReferenceIcon
+                  icon={LeetcodeIcon}
+                  description="leetcode/rulyotano"
+                  href="https://leetcode.com/u/rulyotano/"
                 />
               </Grid>
               <Grid item>
@@ -151,6 +159,7 @@ export default function Index() {
               <img src="https://img.shields.io/badge/-Docker%20Swarm-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Swarm" />
               <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
               <img src="https://img.shields.io/badge/-K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="K8s" />
+              <img src="https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="K8s" />
             </div>
           </SectionItem>
 
