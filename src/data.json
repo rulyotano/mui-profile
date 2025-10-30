@@ -228,6 +228,14 @@
   ],
   "articles": [
     {
+      "title": "Building a Distributed Sequence Generator with ZooKeeper and C#",
+      "web": "https://blog.rulyotano.com/articles/zookeeper",
+      "image": "/img/zookeeper.png",
+      "contentParagraphs": [
+        "This demo project explores how to assign unique, dynamic sequence numbers to multiple server instances in a distributed environment, inspired by challenges that surface when designing things like global ID generators."
+      ]
+    },
+    {
       "title": "Latency improved by 20x times! How to do it?",
       "web": "https://blog.rulyotano.com/blog/article/improve-service-latency",
       "image": "/img/latency-mock-image.jpeg",
