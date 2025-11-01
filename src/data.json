@@ -31,11 +31,9 @@
       "image": "/img/payoneer-logo.png",
       "timePeriod": "2025/05 - actually",
       "contentParagraphs": [
-        "Working as a Senior Software Engineer at Payoneer, focusing on the development of a new platform for managing the company's internal services.",
-        "The platform is designed to be used by other teams within the company, providing them with tools and services to enhance their operations.",
-        "My role involves designing, developing, testing, and monitoring new features to ensure they meet the needs of the internal teams.",
-        "I am also responsible for enhancing the current code base by improving performance, creating new tests, and performing meaningful refactoring.",
-        "Additionally, I investigate and resolve issues in our platform to ensure fast issue resolution."
+        "As part of the Money-Movement-In team, main challenges were to integrate with new external banks allowing accounts creations and in-payments processing.",
+        "Async services communication is key to ensure the best performance, reliability, and scalability of the system.",
+        "Update our codebase from legacy to a more standardized architecture. E.g., make services compatible with Docker, stateless, and integration with k8s."
       ]
     },
     {
