@@ -132,13 +132,13 @@ export default function Index() {
           <Box m={4} />
 
           <SectionItem title="HI! 👋 I'm Raul" initiallyExpanded={true}>
-            <Typography variant="body1" component="p">I'm a passionate coder with expertise in web development, emphasizing clean code, good practices, and SOLID principles. I have a deep passion for coding, algorithms, data structures, and various web technologies.</Typography>
+            <Typography variant="body1" component="p">I'm a passionate coder with expertise in software engineering and computer science, emphasizing clean code, good practices, and SOLID principles. I have a deep passion for coding, algorithms, data structures, and various web technologies.</Typography>
 
             <Box m={2} />
-            <Typography variant="body1" component="p">I like system design topics and would love to help to create scalable and efficient solutions. "I'm also enthusiastic about contributing to open-source projects, enhancing libraries, and assisting fellow developers.</Typography>
+            <Typography variant="body1" component="p">I like system design topics and would love to help by designing and creating scalable and efficient solutions. I'm also enthusiastic about contributing to open-source projects, enhancing libraries, and assisting fellow developers.</Typography>
 
             <Box m={2} />
-            <Typography variant="body1" component="p">I'm eager to collaborate and create outstanding software with you!</Typography>
+            <Typography variant="body1" component="p"> The more I learn, the more things I feel I don't know, so I'm always learning. Getting into the AI world, knowing how it works behind the scenes.</Typography>
 
           </SectionItem>
 
