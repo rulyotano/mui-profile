@@ -4,6 +4,7 @@
 name: Build and push mui-profile/out to rulyotano.github.io
 
 on:
+  workflow_dispatch: 
   push:
     branches:
       - master
