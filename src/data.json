@@ -224,7 +224,15 @@
       "image": "https://github.com/rulyotano/cv/blob/main/images/cv.png?raw=true"
     }
   ],
-  "articles": [
+  "articles": [    
+    {
+      "title": "My Coding Interview Training Schema",
+      "web": "https://blog.rulyotano.com/blog/article/coding-interview-training-schema",
+      "image": "https://blog.rulyotano.com/images/coding-interview-training-schema/cover.png",
+      "contentParagraphs": [
+        "If you only have one or two weeks to prepare for coding interviews, this is a short but effective preparation schema focused on training those skills, not memorizing thousands of problems."
+      ]
+    },
     {
       "title": "Building a Distributed Sequence Generator with ZooKeeper and C#",
       "web": "https://blog.rulyotano.com/articles/zookeeper",
