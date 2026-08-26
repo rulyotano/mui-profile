@@ -17,22 +17,20 @@ import SectionItem from "components/SectionItem";
 import StackOverflowItem from "components/StackOverflowItem";
 import StackOverflowIcon from "components/icons/StackOverflowIcon";
 import HackerrankIcon from "components/icons/HackerrankIcon";
-import CodesignalIcon from "components/icons/CodesignalIcon";
 import MediumIcon from "components/icons/MediumIcon";
 import SectionItemReference from "components/SectionItemReference";
 import DataItem from "components/DataItem";
 import MineIcon from "@material-ui/icons/Brightness5Outlined";
 import BlogIcon from "components/icons/DrupalIcon";
 import settings from "data.json";
-import gravatar from "gravatar.json";
 import LeetcodeIcon from "components/icons/LeetcodeIcon";
 
 export default function Index() {
   const name = settings.fullName;
   const role = settings.role;
-  const [gravatarItem] = gravatar.entry;
+  const imgUrl = settings.imageUrl;
 
-  const profileImage = `${gravatarItem.thumbnailUrl}?s=160`;
+  const profileImage = imgUrl;
   const classes = useStyles();
   return (
     <div>
@@ -132,13 +130,14 @@ export default function Index() {
           <Box m={4} />
 
           <SectionItem title="HI! 👋 I'm Raul" initiallyExpanded={true}>
-            <Typography variant="body1" component="p">I'm a passionate coder with expertise in web development, emphasizing clean code, good practices, and SOLID principles. I have a deep passion for coding, algorithms, data structures, and various web technologies.</Typography>
+            <Typography variant="body1" component="p">Background in Computer Science. I work on solving product problems and requirements, trying to nd the best suitable
+solutions, from the design to monitoring and continuous improvement. Experienced with Distributed Systems and Microser-
+vices, knowing how to scale apps from 0 to millions of users.</Typography>
 
             <Box m={2} />
-            <Typography variant="body1" component="p">I like system design topics and would love to help to create scalable and efficient solutions. "I'm also enthusiastic about contributing to open-source projects, enhancing libraries, and assisting fellow developers.</Typography>
-
-            <Box m={2} />
-            <Typography variant="body1" component="p">I'm eager to collaborate and create outstanding software with you!</Typography>
+            <Typography variant="body1" component="p">As I grow professionally, I also like helping others to grow. I'm always willing to help my folks and oer help even if not
+requested. I have a great sense of ownership, that's why I'm always trying to improve our solutions, even if it is out of the
+scope of the task.</Typography>
 
           </SectionItem>
 
@@ -166,7 +165,7 @@ export default function Index() {
           <Box my={2} />
 
           <SectionItem title="Experience" initiallyExpanded={true}>
-            {settings.experience.map(it => (
+            {settings.experience.map((it, i) => (
               <DataItem
                 key={it.title}
                 title={it.title}
@@ -175,6 +174,7 @@ export default function Index() {
                 image={it.image}
                 timePeriod={it.timePeriod}
                 contentParagraphs={it.contentParagraphs}
+                initiallyExpanded={i === 0}
               />
             ))}
           </SectionItem>

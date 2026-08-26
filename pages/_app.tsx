@@ -24,6 +24,7 @@ export default function MyApp(props) {
 
   const name = settings.fullName;
   const role = settings.role;
+  const iconUrl = settings.imageIconUrl;
 
   return (
     <React.Fragment>
@@ -34,9 +35,9 @@ export default function MyApp(props) {
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta name="description" content={role} />
         <meta property="og:title" content={name} />
-        <meta property="og:image" content={profileImage} />
+        <meta property="og:image" content={iconUrl} />
         <meta property="og:description" content={role}></meta>
-        <link href={pageIcon} rel="icon" type="image/png"></link>
+        <link href={iconUrl} rel="icon" type="image/x-icon"></link>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

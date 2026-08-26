@@ -15,9 +15,9 @@ import ImageIcon from '@material-ui/icons/Photo';
 import ExpandButton from './ExpandButton';
 import { getGoogleImageWithSize } from 'utils/googlePhotos';
 
-export default function DataItem({ image = null, title = "", place = "", timePeriod = "", placeUrl = "", contentParagraphs = [] }) {
+export default function DataItem({ image = null, title = "", place = "", timePeriod = "", placeUrl = "", contentParagraphs = [], initiallyExpanded = false }) {
   const classes = useStyles();
-  const [isExpanded, setIsExpanded] = React.useState(false);
+  const [isExpanded, setIsExpanded] = React.useState(initiallyExpanded);
   const isExpandable = contentParagraphs && contentParagraphs.length > 0;
 
   const imageWithSize = useMemo(() => getGoogleImageWithSize(image, 100), [image]);
