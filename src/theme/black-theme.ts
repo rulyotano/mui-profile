@@ -3,6 +3,16 @@ import { grey } from '@material-ui/core/colors';
 
 // Create a theme instance.
 const theme = createMuiTheme({
+  overrides: {
+    MuiCssBaseline: {
+      '@global': {
+         body: {
+           background: "#292929",
+           background: "linear-gradient(265deg, rgba(41, 41, 41, 1) 0%, rgba(61, 61, 61, 1) 50%, rgba(41, 41, 41, 1) 100%)"
+        },
+      },
+    },
+  },
   palette: {
     type: 'dark',
     background: {
