@@ -116,6 +116,7 @@ const useStyles = makeStyles((theme) => ({
   image: {
     width: 50,
     height: 50,
+    borderRadius: 25,
     margin: theme.spacing(2)
   },
   paragraph: {
