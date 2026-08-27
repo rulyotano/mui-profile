@@ -6,7 +6,7 @@ const theme = createMuiTheme({
   palette: {
     type: 'dark',
     background: {
-        default: "linear-gradient(265deg,rgba(41, 41, 41, 1) 0%, rgba(61, 61, 61, 1) 50%, rgba(41, 41, 41, 1) 100%);"
+        default: grey[900]
     }
   },
   breakpoints: {
