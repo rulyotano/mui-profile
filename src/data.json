@@ -115,10 +115,101 @@
   ],
   "education": [
     {
+      "title": "Fundamentals of Network Engineering",
+      "place": "Udemy",
+      "placeUrl": "https://www.udemy.com/certificate/UC-d7e08200-8d5d-4231-9e97-16a3da161c6c/",
+      "image": "/img/udemy_logo.jpeg",
+      "timePeriod": "2025/11"
+    },
+    {
+      "title": "Fundamentals of Database Engineering",
+      "place": "Udemy",
+      "placeUrl": "https://www.udemy.com/certificate/UC-52c19127-263f-4063-b875-480e31e7462a/",
+      "image": "/img/udemy_logo.jpeg",
+      "timePeriod": "2025/10"
+    },
+    {
+      "title": "Go: The Complete Developer's Guide (Golang)",
+      "place": "Udemy",
+      "placeUrl": "https://www.udemy.com/certificate/UC-baced54d-fd43-43c6-b17d-ac9127bf4633/",
+      "image": "/img/udemy_logo.jpeg",
+      "timePeriod": "2025/07"
+    },
+    {
+      "title": "Kubernetes Mastery: Hands-On Lessons From A Docker Captain",
+      "place": "Udemy",
+      "placeUrl": "https://www.udemy.com/certificate/UC-c02a2ae9-03d2-40ec-94f3-4a1ff77cf973/",
+      "image": "/img/udemy_logo.jpeg",
+      "timePeriod": "2025/06"
+    },
+    {
+      "title": "DevOps Foundations: Monitoring and Observability",
+      "place": "LinkedIn",
+      "placeUrl": "https://www.linkedin.com/learning/certificates/3504b3393a90ac3fbbe1fdc0e0e309766b639fe294e146b54b384401d58a94f7",
+      "image": "/img/linkedin_logo.jpeg",
+      "timePeriod": "2024/02"
+    },
+    {
+      "title": "Building Serverless Applications in AWS",
+      "place": "LinkedIn",
+      "placeUrl": "https://www.linkedin.com/learning/certificates/1d5e41e9dce2ef9e8b6e04ccdc150ac8a63c7df33bf6da2e82fd06a75bf71746",
+      "image": "/img/linkedin_logo.jpeg",
+      "timePeriod": "2024/01"
+    },
+    {
+      "title": "Learning Amazon Web Services (AWS) for Developers",
+      "place": "LinkedIn",
+      "placeUrl": "https://www.linkedin.com/learning/certificates/d67b4f84e916ebcc5f948077d2309539daf45bb4d834356d2a79d41761d047b1",
+      "image": "/img/linkedin_logo.jpeg",
+      "timePeriod": "2024/01"
+    },
+    {
+      "title": "Datadog Foundation",
+      "place": "Datadog",
+      "placeUrl": "https://learn.datadoghq.com/certificates/kfdt1ahued",
+      "image": "/img/datadog_logo.jpeg",
+      "timePeriod": "2023/12"
+    },
+    {
+      "title": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
+      "place": "Udemy",
+      "placeUrl": "https://ude.my/UC-1cd13819-15b9-497f-b64a-bdcf46a5486b",
+      "image": "/img/udemy_logo.jpeg",
+      "timePeriod": "2023/07"
+    },
+    {
+      "title": "Software Architecture Foundations",
+      "place": "LinkedIn",
+      "placeUrl": "https://www.linkedin.com/learning/certificates/bd4c1327e9f788cc7965dcded5641e21e2fbc9855374203a2f84ad7bb7910fab",
+      "image": "/img/linkedin_logo.jpeg",
+      "timePeriod": "2022/11"
+    },
+    {
+      "title": "Software Architecture: Domain-Driven Design",
+      "place": "LinkedIn",
+      "placeUrl": "https://www.linkedin.com/learning/certificates/e337a7bc24c5ab4bb34600bed69510b387601cc8c75df9f43c73bde385a4ef67",
+      "image": "/img/linkedin_logo.jpeg",
+      "timePeriod": "2022/11"
+    },
+    {
+      "title": "Microservices Architecture and Implementation on .NET 5 Course",
+      "place": "Udemy",
+      "placeUrl": "https://ude.my/UC-1a9390d9-ffee-4789-9c27-6bdbb35fa1f5",
+      "image": "/img/udemy_logo.jpeg",
+      "timePeriod": "2021/09"
+    },
+    {
+      "title": "Problem Solving (Intermediate) Certificate",
+      "place": "HackerRank",
+      "placeUrl": "https://www.hackerrank.com/certificates/5b4c0d75cbc9",
+      "image": "/img/hackerrank_logo.jpeg",
+      "timePeriod": "2020/09"
+    },
+    {
       "title": "Computer Science Bachelor of Science (BSc)",
       "place": "University of Havana",
       "placeUrl": "http://www.uh.cu",
-      "image": "https://lh3.googleusercontent.com/pw/ACtC-3eU2fJDzygIqoFlfDqF1-MmM2MfyHQYMx6qnRv1hf07lbF-BtvJ-MTXdqMsJT7kdTQqur1wZYihHUJAhBYuI_zW67_tzJlUiVaXj_vhNiVYIIiVB75xL6ZyIDKorHn2_veH_77OG_wqDVP4Edwsq1Z71A",
+      "image": "/img/university_of_havana_logo.jpeg",
       "timePeriod": "2007/09 - 2013/05",
       "contentParagraphs": [
         "I graduated with a strong foundation in Computer Science, where I gained knowledge in a wide range of subjects.",
