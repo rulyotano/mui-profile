@@ -224,7 +224,15 @@
       "image": "https://github.com/rulyotano/cv/blob/main/images/cv.png?raw=true"
     }
   ],
-  "articles": [    
+  "articles": [
+    {
+      "title": "Reliable Microservice Communication: Patterns That Keep Distributed Systems Sane",
+      "web": "https://blog.rulyotano.com/articles/reliable-microservices-communication",
+      "image": "https://blog.rulyotano.com/images/reliable-microservices-communication/cover.png",
+      "contentParagraphs": [
+        "Distributed systems fail in ways monoliths never do: partial failures, redelivered messages, ambiguous timeouts and cascading outages. This article covers the patterns that keep them sane, like idempotent consumers, dead letter queues, retries with backoff and circuit breakers."
+      ]
+    },
     {
       "title": "My Coding Interview Training Schema",
       "web": "https://blog.rulyotano.com/blog/article/coding-interview-training-schema",
