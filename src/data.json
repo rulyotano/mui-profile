@@ -276,6 +276,17 @@
   ],
   "recommendedBooks": [
     {
+      "title": "Designing Distributed Systems, Second Edition",
+      "author": "Brendan Burns",
+      "web": "https://www.oreilly.com/library/view/designing-distributed-systems/9781098156343/",
+      "blog": "https://blog.rulyotano.com/books/designing-distributed-systems",
+      "image": "https://blog.rulyotano.com/images/designing-distributed-systems-second-edition/designing-distributed-systems-2nd-edition.jpg",
+      "contentParagraphs": [
+        "Brendan Burns' catalog of reusable patterns for building scalable, reliable distributed systems with containers and Kubernetes.",
+        "The second edition adds new chapters on AI inference, AI training, and building robust systems for the real world."
+      ]
+    },
+    {
       "title": "Clean Code",
       "author": "Robert C. Martin",
       "web": "https://www.goodreads.com/book/show/3735293-clean-code",
