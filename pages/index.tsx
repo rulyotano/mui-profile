@@ -131,8 +131,7 @@ export default function Index() {
 
           <SectionItem title="HI! 👋 I'm Raul" initiallyExpanded={true}>
             <Typography variant="body1" component="p">Background in Computer Science. I work on solving product problems and requirements, trying to nd the best suitable
-solutions, from the design to monitoring and continuous improvement. Experienced with Distributed Systems and Microser-
-vices, knowing how to scale apps from 0 to millions of users.</Typography>
+solutions, from the design to monitoring and continuous improvement. Experienced with Distributed Systems and Microservices, knowing how to scale apps from 0 to millions of users.</Typography>
 
             <Box m={2} />
             <Typography variant="body1" component="p">As I grow professionally, I also like helping others to grow. I'm always willing to help my folks and oer help even if not
